@@ -1,0 +1,17 @@
+Conway's Game of Life Simulation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Cellular automata as shown by Conway's Game of Life:
+http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+
+Press Space to restart
+
+--
+
+Written in C++, MSVC++ 2010
+
+--
+
+ThatSnail
+thatsnail@gmail.com
+http://thatsnail.blogspot.com/
