@@ -14,6 +14,8 @@ void updateGrid();
 void drawScreen();
 void randomizeGrid();
 
+void FillRect(int x, int y, int w, int h, int color); // patrick - http://pbeblog.wordpress.com/2009/06/24/drawing-rectangles-sdl/
+
 SDL_Surface* screen=NULL;
 std::vector< std::vector<bool> > grid (WIDTH, std::vector<bool>(HEIGHT));
 std::vector< std::vector<bool> > gridnew (WIDTH, std::vector<bool>(HEIGHT));
@@ -155,19 +157,13 @@ void drawScreen()
 	{
 		for(int y=0;y<HEIGHT;y++)
 		{
-			for(int xs=0;xs<XSCALE;xs++)
+			if(grid[x][y])
 			{
-				for(int ys=0;ys<YSCALE;ys++)
-				{
-					if(grid[x][y])
-					{
-						pixels[(y*YSCALE+ys)*screen->w+(x*XSCALE+xs)]=0xFF000000;
-					}
-					else
-					{
-						pixels[(y*YSCALE+ys)*screen->w+(x*XSCALE+xs)]=0xFFFFFFFF;
-					}
-				}
+				FillRect(x*XSCALE,y*YSCALE,XSCALE,YSCALE,0x000000);
+			}
+			else
+			{
+				FillRect(x*XSCALE,y*YSCALE,XSCALE,YSCALE,0xFFFFFF);
 			}
 		}
 	}
@@ -185,4 +181,10 @@ void randomizeGrid()
 			gridnew[x][y]=false;
 		}
 	}
+}
+
+void FillRect(int x, int y, int w, int h, int color)
+{
+	SDL_Rect rect = {x,y,w,h};
+	SDL_FillRect(screen, &rect, color);
 }
