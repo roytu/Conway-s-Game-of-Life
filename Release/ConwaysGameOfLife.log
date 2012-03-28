@@ -1,2 +1,1206 @@
 ﻿  main.cpp
-main.cpp(1): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  
+  Starting pass 1
+  Processed /DEFAULTLIB:msvcprt
+  Processed /DEFAULTLIB:MSVCRT
+  Processed /DEFAULTLIB:OLDNAMES
+  
+  Searching libraries
+      Searching C:\Users\Owner\Desktop\C++ SDL\ConwaysGameOfLife\ConwaysGameOfLife\\lib\SDL.lib:
+        Found _SDL_Init
+          Referenced in main.obj
+          Loaded SDL.lib(SDL.dll)
+        Found _SDL_SetVideoMode
+          Referenced in main.obj
+          Loaded SDL.lib(SDL.dll)
+        Found _SDL_FillRect
+          Referenced in main.obj
+          Loaded SDL.lib(SDL.dll)
+        Found _SDL_PollEvent
+          Referenced in main.obj
+          Loaded SDL.lib(SDL.dll)
+        Found _SDL_Flip
+          Referenced in main.obj
+          Loaded SDL.lib(SDL.dll)
+        Found _SDL_Quit
+          Referenced in main.obj
+          Loaded SDL.lib(SDL.dll)
+        Found __IMPORT_DESCRIPTOR_SDL
+          Referenced in SDL.lib(SDL.dll)
+          Referenced in SDL.lib(SDL.dll)
+          Referenced in SDL.lib(SDL.dll)
+          Referenced in SDL.lib(SDL.dll)
+          Referenced in SDL.lib(SDL.dll)
+          Referenced in SDL.lib(SDL.dll)
+          Loaded SDL.lib(SDL.dll)
+        Found __NULL_IMPORT_DESCRIPTOR
+          Referenced in SDL.lib(SDL.dll)
+          Loaded SDL.lib(SDL.dll)
+        Found SDL_NULL_THUNK_DATA
+          Referenced in SDL.lib(SDL.dll)
+          Loaded SDL.lib(SDL.dll)
+      Searching C:\Users\Owner\Desktop\C++ SDL\ConwaysGameOfLife\ConwaysGameOfLife\\lib\SDLmain.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\user32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\gdi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\winspool.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\comdlg32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\advapi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\shell32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\ole32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\oleaut32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+      Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\msvcprt.lib:
+        Found "__declspec(dllimport) void __cdecl std::_Xlength_error(char const *)" (__imp_?_Xlength_error@std@@YAXPBD@Z)
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP100.dll)
+        Found "__declspec(dllimport) public: void __thiscall std::_Container_base0::_Swap_all(struct std::_Container_base0 &)" (__imp_?_Swap_all@_Container_base0@std@@QAEXAAU12@@Z)
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP100.dll)
+        Found "__declspec(dllimport) public: void __thiscall std::_Container_base0::_Orphan_all(void)" (__imp_?_Orphan_all@_Container_base0@std@@QAEXXZ)
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP100.dll)
+        Found __IMPORT_DESCRIPTOR_MSVCP100
+          Referenced in msvcprt.lib(MSVCP100.dll)
+          Referenced in msvcprt.lib(MSVCP100.dll)
+          Referenced in msvcprt.lib(MSVCP100.dll)
+          Loaded msvcprt.lib(MSVCP100.dll)
+        Found MSVCP100_NULL_THUNK_DATA
+          Referenced in msvcprt.lib(MSVCP100.dll)
+          Loaded msvcprt.lib(MSVCP100.dll)
+      Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\MSVCRT.lib:
+        Found @__security_check_cookie@4
+          Referenced in main.obj
+          Loaded MSVCRT.lib(secchk.obj)
+        Found "__declspec(dllimport) public: virtual char const * __thiscall std::exception::what(void)const " (__imp_?what@exception@std@@UBEPBDXZ)
+          Referenced in main.obj
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found "__declspec(dllimport) public: virtual __thiscall std::exception::~exception(void)" (__imp_??1exception@std@@UAE@XZ)
+          Referenced in main.obj
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found "__declspec(dllimport) public: __thiscall std::exception::exception(char const * const &)" (__imp_??0exception@std@@QAE@ABQBD@Z)
+          Referenced in main.obj
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found "__declspec(dllimport) public: __thiscall std::exception::exception(class std::exception const &)" (__imp_??0exception@std@@QAE@ABV01@@Z)
+          Referenced in main.obj
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __imp__memmove
+          Referenced in main.obj
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found _atexit
+          Referenced in main.obj
+          Loaded MSVCRT.lib(atonexit.obj)
+        Found __imp__rand
+          Referenced in main.obj
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+          Referenced in main.obj
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found "const type_info::`vftable'" (??_7type_info@@6B@)
+          Referenced in main.obj
+          Loaded MSVCRT.lib(ti_inst.obj)
+        Found "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+          Referenced in main.obj
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found _WinMainCRTStartup
+          Loaded MSVCRT.lib(crtexew.obj)
+        Found ___report_gsfailure
+          Referenced in MSVCRT.lib(secchk.obj)
+          Loaded MSVCRT.lib(gs_report.obj)
+        Found ___security_cookie
+          Referenced in MSVCRT.lib(secchk.obj)
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded MSVCRT.lib(gs_cookie.obj)
+        Found __IMPORT_DESCRIPTOR_MSVCR100
+          Referenced in MSVCRT.lib(MSVCR100.dll)
+          Referenced in MSVCRT.lib(MSVCR100.dll)
+          Referenced in MSVCRT.lib(MSVCR100.dll)
+          Referenced in MSVCRT.lib(MSVCR100.dll)
+          Referenced in MSVCRT.lib(MSVCR100.dll)
+          Referenced in MSVCRT.lib(MSVCR100.dll)
+          Referenced in MSVCRT.lib(MSVCR100.dll)
+          Referenced in MSVCRT.lib(MSVCR100.dll)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __unlock
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found ___dllonexit
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __lock
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __imp___onexit
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __SEH_epilog4
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(sehprolg4.obj)
+        Found __except_handler4
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Referenced in MSVCRT.lib(sehprolg4.obj)
+          Loaded MSVCRT.lib(chandler4gs.obj)
+        Found "void __stdcall `eh vector destructor iterator'(void *,unsigned int,int,void (__thiscall*)(void *))" (??_M@YGXPAXIHP6EX0@Z@Z)
+          Referenced in MSVCRT.lib(ti_inst.obj)
+          Loaded MSVCRT.lib(ehvecdtr.obj)
+        Found "public: virtual __thiscall type_info::~type_info(void)" (??1type_info@@UAE@XZ)
+          Referenced in MSVCRT.lib(ti_inst.obj)
+          Loaded MSVCRT.lib(typeinfo_dtor_32.obj)
+        Found ___CxxSetUnhandledExceptionFilter
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(unhandld.obj)
+        Found __amsg_exit
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __imp____getmainargs
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __dowildcard
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(wildcard.obj)
+        Found __newmode
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(_newmode.obj)
+        Found __RTC_Terminate
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(_initsect_.obj)
+        Found __imp___cexit
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __imp___exit
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __XcptFilter
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __imp___ismbblead
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __imp__exit
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __imp___acmdln
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __IsNonwritableInCurrentImage
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(pesect.obj)
+        Found __initterm
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found ___xc_a
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(cinitexe.obj)
+  Processed /DEFAULTLIB:kernel32.lib
+   Processed /DISALLOWLIB:libcmt.lib
+   Processed /DISALLOWLIB:libcmtd.lib
+   Processed /DISALLOWLIB:msvcrtd.lib
+        Found __initterm_e
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found ___native_startup_state
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(natstart.obj)
+        Found __imp___configthreadlocale
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found ___globallocalestatus
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(xthdloc.obj)
+        Found __setdefaultprecision
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(fp8.obj)
+        Found __imp____setusermatherr
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __matherr
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(merr.obj)
+        Found __setargv
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(dllargv.obj)
+        Found __commode
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(xncommod.obj)
+        Found __imp___commode
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __imp___fmode
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __fmode
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(xtxtmode.obj)
+        Found __imp____set_app_type
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found ___security_init_cookie
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(gs_support.obj)
+        Found __crt_debugger_hook
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found MSVCR100_NULL_THUNK_DATA
+          Referenced in MSVCRT.lib(MSVCR100.dll)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __except_handler4_common
+          Referenced in MSVCRT.lib(chandler4gs.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found "void __cdecl terminate(void)" (?terminate@@YAXXZ)
+          Referenced in MSVCRT.lib(ehvecdtr.obj)
+          Referenced in MSVCRT.lib(unhandld.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found "public: void __thiscall type_info::_type_info_dtor_internal_method(void)" (?_type_info_dtor_internal_method@type_info@@QAEXXZ)
+          Referenced in MSVCRT.lib(typeinfo_dtor_32.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __invoke_watson
+          Referenced in MSVCRT.lib(fp8.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __controlfp_s
+          Referenced in MSVCRT.lib(fp8.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+      Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Users\Owner\Desktop\C++ SDL\ConwaysGameOfLife\ConwaysGameOfLife\\lib\SDL.lib:
+      Searching C:\Users\Owner\Desktop\C++ SDL\ConwaysGameOfLife\ConwaysGameOfLife\\lib\SDLmain.lib:
+        Found _WinMain@16
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded SDLmain.lib(SDL_win32_main.obj)
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+        Found __imp__EncodePointer@4
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__DecodePointer@4
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__InterlockedExchange@8
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__Sleep@4
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__InterlockedCompareExchange@12
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__HeapSetInformation@16
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetStartupInfoW@4
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__TerminateProcess@8
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentProcess@0
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__UnhandledExceptionFilter@4
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__SetUnhandledExceptionFilter@4
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(unhandld.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__IsDebuggerPresent@0
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__QueryPerformanceCounter@4
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetTickCount@0
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentThreadId@0
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentProcessId@0
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetSystemTimeAsFileTime@4
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetModuleFileNameA@12
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetModuleHandleA@4
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCommandLineA@0
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__FreeLibrary@4
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__LoadLibraryA@4
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __IMPORT_DESCRIPTOR_KERNEL32
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found KERNEL32_NULL_THUNK_DATA
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\user32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\gdi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\winspool.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\comdlg32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\advapi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\shell32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\ole32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\oleaut32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+      Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\msvcprt.lib:
+      Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\MSVCRT.lib:
+        Found __imp__isspace
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __imp__fprintf
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __imp____iob_func
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __imp__remove
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __imp__fopen
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __imp__fgetc
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __imp__fclose
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __imp__setbuf
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __imp__setvbuf
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __imp__freopen
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __imp__strrchr
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __alloca_probe_16
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded MSVCRT.lib(alloca16.obj)
+        Found __imp__atoi
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found __chkstk
+          Referenced in MSVCRT.lib(alloca16.obj)
+          Loaded MSVCRT.lib(chkstk.obj)
+      Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Users\Owner\Desktop\C++ SDL\ConwaysGameOfLife\ConwaysGameOfLife\\lib\SDL.lib:
+        Found _SDL_strlcat
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded SDL.lib(SDL.dll)
+        Found _SDL_strlcpy
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded SDL.lib(SDL.dll)
+        Found _SDL_SetModuleHandle
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded SDL.lib(SDL.dll)
+        Found _SDL_GetError
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded SDL.lib(SDL.dll)
+        Found _SDL_getenv
+          Referenced in SDLmain.lib(SDL_win32_main.obj)
+          Loaded SDL.lib(SDL.dll)
+      Searching C:\Users\Owner\Desktop\C++ SDL\ConwaysGameOfLife\ConwaysGameOfLife\\lib\SDLmain.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\user32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\gdi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\winspool.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\comdlg32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\advapi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\shell32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\ole32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\oleaut32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+      Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\msvcprt.lib:
+      Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\MSVCRT.lib:
+      Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\OLDNAMES.lib:
+  
+  Finished searching libraries
+  
+  Finished pass 1
+  
+  Generating code
+  Finished generating code
+  
+  Searching libraries
+      Searching C:\Users\Owner\Desktop\C++ SDL\ConwaysGameOfLife\ConwaysGameOfLife\\lib\SDL.lib:
+      Searching C:\Users\Owner\Desktop\C++ SDL\ConwaysGameOfLife\ConwaysGameOfLife\\lib\SDLmain.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\user32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\gdi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\winspool.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\comdlg32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\advapi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\shell32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\ole32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\oleaut32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+      Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\msvcprt.lib:
+      Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\MSVCRT.lib:
+        Found __CxxThrowException@8
+          Referenced in main.obj
+          Loaded MSVCRT.lib(MSVCR100.dll)
+        Found ___CxxFrameHandler3
+          Referenced in main.obj
+          Loaded MSVCRT.lib(MSVCR100.dll)
+      Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\OLDNAMES.lib:
+  
+  Finished searching libraries
+  
+  Searching libraries
+      Searching C:\Users\Owner\Desktop\C++ SDL\ConwaysGameOfLife\ConwaysGameOfLife\\lib\SDL.lib:
+      Searching C:\Users\Owner\Desktop\C++ SDL\ConwaysGameOfLife\ConwaysGameOfLife\\lib\SDLmain.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\user32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\gdi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\winspool.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\comdlg32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\advapi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\shell32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\ole32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\oleaut32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+      Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\msvcprt.lib:
+      Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\MSVCRT.lib:
+        Found __load_config_used
+          Loaded MSVCRT.lib(loadcfg.obj)
+      Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Users\Owner\Desktop\C++ SDL\ConwaysGameOfLife\ConwaysGameOfLife\\lib\SDL.lib:
+      Searching C:\Users\Owner\Desktop\C++ SDL\ConwaysGameOfLife\ConwaysGameOfLife\\lib\SDLmain.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\user32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\gdi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\winspool.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\comdlg32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\advapi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\shell32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\ole32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\oleaut32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+      Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\msvcprt.lib:
+  
+  Finished searching libraries
+  
+  Processing /ORDER options
+      External code objects not listed in the /ORDER file:
+  
+          _setdefaultprecision		; MSVCRT.lib(fp8.obj)
+          strrchr		; MSVCRT.lib(MSVCR100.dll)
+          GetModuleHandleA@4		; kernel32.lib(KERNEL32.dll)
+          SDL_FillRect		; SDL.lib(SDL.dll)
+          fgetc		; MSVCRT.lib(MSVCR100.dll)
+          _setargv		; MSVCRT.lib(dllargv.obj)
+          SDL_Quit		; SDL.lib(SDL.dll)
+          SDL_SetVideoMode		; SDL.lib(SDL.dll)
+          @__security_check_cookie@4		; MSVCRT.lib(secchk.obj)
+          IsDebuggerPresent@0		; kernel32.lib(KERNEL32.dll)
+          ??4type_info@@AAEAAV0@ABV0@@Z		; MSVCRT.lib(ti_inst.obj)
+          GetStartupInfoW@4		; kernel32.lib(KERNEL32.dll)
+          _RTC_Terminate		; MSVCRT.lib(_initsect_.obj)
+          GetModuleFileNameA@12		; kernel32.lib(KERNEL32.dll)
+          __setusermatherr		; MSVCRT.lib(MSVCR100.dll)
+          Sleep@4		; kernel32.lib(KERNEL32.dll)
+          SDL_Init		; SDL.lib(SDL.dll)
+          SDL_Flip		; SDL.lib(SDL.dll)
+          fprintf		; MSVCRT.lib(MSVCR100.dll)
+          __security_init_cookie		; MSVCRT.lib(gs_support.obj)
+          fclose		; MSVCRT.lib(MSVCR100.dll)
+          SetUnhandledExceptionFilter@4		; kernel32.lib(KERNEL32.dll)
+          _cexit		; MSVCRT.lib(MSVCR100.dll)
+          atexit		; MSVCRT.lib(atonexit.obj)
+          SDL_strlcat		; SDL.lib(SDL.dll)
+          _except_handler4		; MSVCRT.lib(chandler4gs.obj)
+          _lock		; MSVCRT.lib(MSVCR100.dll)
+          fopen		; MSVCRT.lib(MSVCR100.dll)
+          ??3@YAXPAX@Z		; MSVCRT.lib(MSVCR100.dll)
+          ?_type_info_dtor_internal_method@type_info@@QAEXXZ		; MSVCRT.lib(MSVCR100.dll)
+          __report_gsfailure		; MSVCRT.lib(gs_report.obj)
+          ?_Swap_all@_Container_base0@std@@QAEXAAU12@@Z		; msvcprt.lib(MSVCP100.dll)
+          SDL_getenv		; SDL.lib(SDL.dll)
+          ?terminate@@YAXXZ		; MSVCRT.lib(MSVCR100.dll)
+          _exit		; MSVCRT.lib(MSVCR100.dll)
+          GetCurrentThreadId@0		; kernel32.lib(KERNEL32.dll)
+          _initterm		; MSVCRT.lib(MSVCR100.dll)
+          SDL_strlcpy		; SDL.lib(SDL.dll)
+          GetCurrentProcess@0		; kernel32.lib(KERNEL32.dll)
+          setbuf		; MSVCRT.lib(MSVCR100.dll)
+          ??_Etype_info@@UAEPAXI@Z		; MSVCRT.lib(ti_inst.obj)
+          _FindPESection		; MSVCRT.lib(pesect.obj)
+          HeapSetInformation@16		; kernel32.lib(KERNEL32.dll)
+          _configthreadlocale		; MSVCRT.lib(MSVCR100.dll)
+          LoadLibraryA@4		; kernel32.lib(KERNEL32.dll)
+          _crt_debugger_hook		; MSVCRT.lib(MSVCR100.dll)
+          _ValidateImageBase		; MSVCRT.lib(pesect.obj)
+          InterlockedCompareExchange@12		; kernel32.lib(KERNEL32.dll)
+          _CxxThrowException@8		; MSVCRT.lib(MSVCR100.dll)
+          memmove		; MSVCRT.lib(MSVCR100.dll)
+          _onexit		; MSVCRT.lib(atonexit.obj)
+          NtCurrentTeb		; MSVCRT.lib(crtexew.obj)
+          SDL_PollEvent		; SDL.lib(SDL.dll)
+          _invoke_watson_if_error		; MSVCRT.lib(fp8.obj)
+          TerminateProcess@8		; kernel32.lib(KERNEL32.dll)
+          rand		; MSVCRT.lib(MSVCR100.dll)
+          __iob_func		; MSVCRT.lib(MSVCR100.dll)
+          ?__CxxUnhandledExceptionFilter@@YGJPAU_EXCEPTION_POINTERS@@@Z		; MSVCRT.lib(unhandld.obj)
+          __CxxSetUnhandledExceptionFilter		; MSVCRT.lib(unhandld.obj)
+          QueryPerformanceCounter@4		; kernel32.lib(KERNEL32.dll)
+          isspace		; MSVCRT.lib(MSVCR100.dll)
+          _ismbblead		; MSVCRT.lib(MSVCR100.dll)
+          _unlock		; MSVCRT.lib(MSVCR100.dll)
+          freopen		; MSVCRT.lib(MSVCR100.dll)
+          remove		; MSVCRT.lib(MSVCR100.dll)
+          GetCurrentProcessId@0		; kernel32.lib(KERNEL32.dll)
+          __set_app_type		; MSVCRT.lib(MSVCR100.dll)
+          main		; SDLmain.lib(SDL_win32_main.obj)
+          SDL_SetModuleHandle		; SDL.lib(SDL.dll)
+          EncodePointer@4		; kernel32.lib(KERNEL32.dll)
+          _RTC_Initialize		; MSVCRT.lib(_initsect_.obj)
+          setvbuf		; MSVCRT.lib(MSVCR100.dll)
+          WinMainCRTStartup		; MSVCRT.lib(crtexew.obj)
+          _controlfp_s		; MSVCRT.lib(MSVCR100.dll)
+          GetSystemTimeAsFileTime@4		; kernel32.lib(KERNEL32.dll)
+          DecodePointer@4		; kernel32.lib(KERNEL32.dll)
+          _invoke_watson		; MSVCRT.lib(MSVCR100.dll)
+          WinMain@16		; SDLmain.lib(SDL_win32_main.obj)
+          ??0exception@std@@QAE@ABQBD@Z		; MSVCRT.lib(MSVCR100.dll)
+          GetTickCount@0		; kernel32.lib(KERNEL32.dll)
+          __CxxFrameHandler3		; MSVCRT.lib(MSVCR100.dll)
+          _IsNonwritableInCurrentImage		; MSVCRT.lib(pesect.obj)
+          _amsg_exit		; MSVCRT.lib(MSVCR100.dll)
+          ??2@YAPAXI@Z		; MSVCRT.lib(MSVCR100.dll)
+          _XcptFilter		; MSVCRT.lib(MSVCR100.dll)
+          InterlockedExchange@8		; kernel32.lib(KERNEL32.dll)
+          UnhandledExceptionFilter@4		; kernel32.lib(KERNEL32.dll)
+          ??0exception@std@@QAE@ABV01@@Z		; MSVCRT.lib(MSVCR100.dll)
+          ??0type_info@@AAE@ABV0@@Z		; MSVCRT.lib(ti_inst.obj)
+          _except_handler4_common		; MSVCRT.lib(MSVCR100.dll)
+          GetCommandLineA@0		; kernel32.lib(KERNEL32.dll)
+          _matherr		; MSVCRT.lib(merr.obj)
+          __getmainargs		; MSVCRT.lib(MSVCR100.dll)
+          ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z		; MSVCRT.lib(ehvecdtr.obj)
+          atoi		; MSVCRT.lib(MSVCR100.dll)
+          ?_Orphan_all@_Container_base0@std@@QAEXXZ		; msvcprt.lib(MSVCP100.dll)
+          ?_Xlength_error@std@@YAXPBD@Z		; msvcprt.lib(MSVCP100.dll)
+          exit		; MSVCRT.lib(MSVCR100.dll)
+          ?what@exception@std@@UBEPBDXZ		; MSVCRT.lib(MSVCR100.dll)
+          __dllonexit		; MSVCRT.lib(MSVCR100.dll)
+          SDL_GetError		; SDL.lib(SDL.dll)
+          FreeLibrary@4		; kernel32.lib(KERNEL32.dll)
+          ??_M@YGXPAXIHP6EX0@Z@Z		; MSVCRT.lib(ehvecdtr.obj)
+          _initterm_e		; MSVCRT.lib(MSVCR100.dll)
+          ??1exception@std@@UAE@XZ		; MSVCRT.lib(MSVCR100.dll)
+  
+  Finished processing /ORDER options
+      Discarded "__declspec(dllimport) public: void __thiscall std::_Container_base0::_Orphan_all(void)" (__imp_?_Orphan_all@_Container_base0@std@@QAEXXZ) from msvcprt.lib(MSVCP100.dll)
+      Discarded "__declspec(dllimport) public: void __thiscall std::_Container_base0::_Swap_all(struct std::_Container_base0 &)" (__imp_?_Swap_all@_Container_base0@std@@QAEXAAU12@@Z) from msvcprt.lib(MSVCP100.dll)
+      Discarded "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessDetach" (?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB) from MSVCRT.lib(unhandld.obj)
+      Discarded "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessAttach" (?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB) from MSVCRT.lib(unhandld.obj)
+      Discarded "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ThreadAttach" (?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB) from MSVCRT.lib(unhandld.obj)
+      Discarded "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ThreadDetach" (?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB) from MSVCRT.lib(unhandld.obj)
+      Discarded "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessVerifier" (?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB) from MSVCRT.lib(unhandld.obj)
+      Discarded "`string'" (??_C@_0BG@EOMJEIFA@vector?$DMbool?$DO?5too?5long?$AA@) from main.obj
+      Discarded '.xdata$x' from main.obj
+      Discarded '.xdata$x' from main.obj
+      Discarded '.xdata$x' from main.obj
+      Discarded '.xdata$x' from main.obj
+      Discarded '.xdata$x' from main.obj
+      Discarded '.xdata$x' from main.obj
+      Discarded '.xdata$x' from main.obj
+      Discarded '.xdata$x' from main.obj
+      Discarded '.xdata$x' from main.obj
+      Discarded '.xdata$x' from main.obj
+      Discarded '.xdata$x' from main.obj
+      Discarded '.xdata$x' from main.obj
+      Discarded '.xdata$x' from main.obj
+      Discarded '.xdata$x' from main.obj
+      Discarded '.xdata$x' from main.obj
+      Discarded '.idata$4' from msvcprt.lib(MSVCP100.dll)
+      Discarded '.idata$4' from msvcprt.lib(MSVCP100.dll)
+      Discarded '.idata$6' from msvcprt.lib(MSVCP100.dll)
+      Discarded '.idata$6' from msvcprt.lib(MSVCP100.dll)
+      Discarded "public: __thiscall std::bad_alloc::bad_alloc(char const *)" (??0bad_alloc@std@@QAE@PBD@Z) from main.obj
+      Discarded "void * __cdecl operator new(unsigned int,void *)" (??2@YAPAXIPAX@Z) from main.obj
+      Discarded "public: void __thiscall std::_Iterator_base0::_Adopt(void const *)" (?_Adopt@_Iterator_base0@std@@QAEXPBX@Z) from main.obj
+      Discarded "public: struct std::_Container_base0 const * __thiscall std::_Iterator_base0::_Getcont(void)const " (?_Getcont@_Iterator_base0@std@@QBEPBU_Container_base0@2@XZ) from main.obj
+      Discarded "int __cdecl getNeighbors(int,int)" (?getNeighbors@@YAHHH@Z) from main.obj
+      Discarded "void __cdecl FillRect(int,int,int,int,int)" (?FillRect@@YAXHHHHH@Z) from main.obj
+      Discarded "public: __thiscall std::vector<bool,class std::allocator<bool> >::vector<bool,class std::allocator<bool> >(unsigned int,bool)" (??0?$vector@_NV?$allocator@_N@std@@@std@@QAE@I_N@Z) from main.obj
+      Discarded "public: class std::_Vb_reference<class std::allocator<bool> > __thiscall std::vector<bool,class std::allocator<bool> >::operator[](unsigned int)" (??A?$vector@_NV?$allocator@_N@std@@@std@@QAE?AV?$_Vb_reference@V?$allocator@_N@std@@@1@I@Z) from main.obj
+      Discarded "public: __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >(unsigned int,class std::vector<bool,class std::allocator<bool> > const &)" (??0?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@QAE@IABV?$vector@_NV?$allocator@_N@std@@@1@@Z) from main.obj
+      Discarded "public: __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::~vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >(void)" (??1?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@QAE@XZ) from main.obj
+      Discarded "public: class std::vector<bool,class std::allocator<bool> > & __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::operator[](unsigned int)" (??A?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@QAEAAV?$vector@_NV?$allocator@_N@std@@@1@I@Z) from main.obj
+      Discarded "public: void __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::swap(class std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > &)" (?swap@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@QAEXAAV12@@Z) from main.obj
+      Discarded "public: int & __thiscall std::vector<int,class std::allocator<int> >::operator[](unsigned int)" (??A?$vector@HV?$allocator@H@std@@@std@@QAEAAHI@Z) from main.obj
+      Discarded "public: __thiscall std::vector<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > >::vector<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > >(unsigned int,class std::vector<int,class std::allocator<int> > const &)" (??0?$vector@V?$vector@HV?$allocator@H@std@@@std@@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@std@@QAE@IABV?$vector@HV?$allocator@H@std@@@1@@Z) from main.obj
+      Discarded "public: __thiscall std::vector<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > >::~vector<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > >(void)" (??1?$vector@V?$vector@HV?$allocator@H@std@@@std@@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@std@@QAE@XZ) from main.obj
+      Discarded "public: class std::vector<int,class std::allocator<int> > & __thiscall std::vector<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > >::operator[](unsigned int)" (??A?$vector@V?$vector@HV?$allocator@H@std@@@std@@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@std@@QAEAAV?$vector@HV?$allocator@H@std@@@1@I@Z) from main.obj
+      Discarded "public: class std::_Vb_reference<class std::allocator<bool> > & __thiscall std::_Vb_reference<class std::allocator<bool> >::operator=(class std::_Vb_reference<class std::allocator<bool> > const &)" (??4?$_Vb_reference@V?$allocator@_N@std@@@std@@QAEAAV01@ABV01@@Z) from main.obj
+      Discarded "public: class std::_Vb_reference<class std::allocator<bool> > & __thiscall std::_Vb_reference<class std::allocator<bool> >::operator=(bool)" (??4?$_Vb_reference@V?$allocator@_N@std@@@std@@QAEAAV01@_N@Z) from main.obj
+      Discarded "public: __thiscall std::_Vb_reference<class std::allocator<bool> >::operator bool(void)const " (??B?$_Vb_reference@V?$allocator@_N@std@@@std@@QBE_NXZ) from main.obj
+      Discarded "public: class std::_Vb_iterator<class std::allocator<bool> > __thiscall std::vector<bool,class std::allocator<bool> >::begin(void)" (?begin@?$vector@_NV?$allocator@_N@std@@@std@@QAE?AV?$_Vb_iterator@V?$allocator@_N@std@@@2@XZ) from main.obj
+      Discarded "public: void __thiscall std::vector<bool,class std::allocator<bool> >::_Trim(unsigned int)" (?_Trim@?$vector@_NV?$allocator@_N@std@@@std@@QAEXI@Z) from main.obj
+      Discarded "public: __thiscall std::_Vb_val<class std::allocator<bool> >::_Vb_val<class std::allocator<bool> >(unsigned int,bool,class std::allocator<bool>)" (??0?$_Vb_val@V?$allocator@_N@std@@@std@@QAE@I_NV?$allocator@_N@1@@Z) from main.obj
+      Discarded "public: __thiscall std::allocator<bool>::allocator<bool>(void)" (??0?$allocator@_N@std@@QAE@XZ) from main.obj
+      Discarded "public: __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >(class std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > &&)" (??0?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@QAE@$$QAV01@@Z) from main.obj
+      Discarded "public: class std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > & __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::operator=(class std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > &&)" (??4?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@QAEAAV01@$$QAV01@@Z) from main.obj
+      Discarded "public: __thiscall std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >(class std::allocator<class std::vector<bool,class std::allocator<bool> > >)" (??0?$_Vector_val@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@QAE@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@1@@Z) from main.obj
+      Discarded "public: __thiscall std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::~_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >(void)" (??1?$_Vector_val@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@QAE@XZ) from main.obj
+      Discarded "public: __thiscall std::allocator<class std::vector<bool,class std::allocator<bool> > >::allocator<class std::vector<bool,class std::allocator<bool> > >(void)" (??0?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@std@@QAE@XZ) from main.obj
+      Discarded "public: __thiscall std::_Vector_val<int,class std::allocator<int> >::~_Vector_val<int,class std::allocator<int> >(void)" (??1?$_Vector_val@HV?$allocator@H@std@@@std@@QAE@XZ) from main.obj
+      Discarded "public: __thiscall std::_Vector_val<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > >::_Vector_val<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > >(class std::allocator<class std::vector<int,class std::allocator<int> > >)" (??0?$_Vector_val@V?$vector@HV?$allocator@H@std@@@std@@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@std@@QAE@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@1@@Z) from main.obj
+      Discarded "public: __thiscall std::_Vector_val<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > >::~_Vector_val<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > >(void)" (??1?$_Vector_val@V?$vector@HV?$allocator@H@std@@@std@@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@std@@QAE@XZ) from main.obj
+      Discarded "public: __thiscall std::allocator<class std::vector<int,class std::allocator<int> > >::allocator<class std::vector<int,class std::allocator<int> > >(void)" (??0?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@std@@QAE@XZ) from main.obj
+      Discarded "public: unsigned int const * __thiscall std::_Vb_reference<class std::allocator<bool> >::_Getptr(void)const " (?_Getptr@?$_Vb_reference@V?$allocator@_N@std@@@std@@QBEPBIXZ) from main.obj
+      Discarded "protected: unsigned int __thiscall std::_Vb_reference<class std::allocator<bool> >::_Mask(void)const " (?_Mask@?$_Vb_reference@V?$allocator@_N@std@@@std@@IBEIXZ) from main.obj
+      Discarded "public: class std::_Vb_reference<class std::allocator<bool> > __thiscall std::_Vb_iterator<class std::allocator<bool> >::operator*(void)const " (??D?$_Vb_iterator@V?$allocator@_N@std@@@std@@QBE?AV?$_Vb_reference@V?$allocator@_N@std@@@1@XZ) from main.obj
+      Discarded "public: class std::_Vb_iterator<class std::allocator<bool> > __thiscall std::_Vb_iterator<class std::allocator<bool> >::operator+(int)const " (??H?$_Vb_iterator@V?$allocator@_N@std@@@std@@QBE?AV01@H@Z) from main.obj
+      Discarded "public: unsigned int __thiscall std::vector<bool,class std::allocator<bool> >::max_size(void)const " (?max_size@?$vector@_NV?$allocator@_N@std@@@std@@QBEIXZ) from main.obj
+      Discarded "public: void __thiscall std::vector<bool,class std::allocator<bool> >::_Xlen(void)const " (?_Xlen@?$vector@_NV?$allocator@_N@std@@@std@@QBEXXZ) from main.obj
+      Discarded "public: static unsigned int __cdecl std::_Vb_val<class std::allocator<bool> >::_Nw(unsigned int)" (?_Nw@?$_Vb_val@V?$allocator@_N@std@@@std@@SAII@Z) from main.obj
+      Discarded "public: __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::vector<unsigned int,class std::allocator<unsigned int> >(unsigned int,unsigned int const &,class std::allocator<unsigned int> const &)" (??0?$vector@IV?$allocator@I@std@@@std@@QAE@IABIABV?$allocator@I@1@@Z) from main.obj
+      Discarded "public: __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::~vector<unsigned int,class std::allocator<unsigned int> >(void)" (??1?$vector@IV?$allocator@I@std@@@std@@QAE@XZ) from main.obj
+      Discarded "public: class std::_Vector_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > > __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::begin(void)" (?begin@?$vector@IV?$allocator@I@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@2@XZ) from main.obj
+      Discarded "public: class std::_Vector_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > > __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::end(void)" (?end@?$vector@IV?$allocator@I@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@2@XZ) from main.obj
+      Discarded "public: unsigned int __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::size(void)const " (?size@?$vector@IV?$allocator@I@std@@@std@@QBEIXZ) from main.obj
+      Discarded "public: unsigned int & __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::operator[](unsigned int)" (??A?$vector@IV?$allocator@I@std@@@std@@QAEAAII@Z) from main.obj
+      Discarded "public: class std::_Vector_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > > __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::erase(class std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >,class std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >)" (?erase@?$vector@IV?$allocator@I@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@2@0@Z) from main.obj
+      Discarded "public: void __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::_Assign_rv(class std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > &&)" (?_Assign_rv@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@QAEX$$QAV12@@Z) from main.obj
+      Discarded "protected: bool __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::_Buy(unsigned int)" (?_Buy@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@IAE_NI@Z) from main.obj
+      Discarded "protected: void __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::_Destroy(class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > *)" (?_Destroy@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@IAEXPAV?$vector@_NV?$allocator@_N@std@@@2@0@Z) from main.obj
+      Discarded "protected: class std::vector<bool,class std::allocator<bool> > * __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::_Ufill(class std::vector<bool,class std::allocator<bool> > *,unsigned int,class std::vector<bool,class std::allocator<bool> > const *)" (?_Ufill@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@IAEPAV?$vector@_NV?$allocator@_N@std@@@2@PAV32@IPBV32@@Z) from main.obj
+      Discarded "public: __thiscall std::allocator<class std::vector<bool,class std::allocator<bool> > >::allocator<class std::vector<bool,class std::allocator<bool> > >(class std::allocator<class std::vector<bool,class std::allocator<bool> > > const &)" (??0?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@std@@QAE@ABV01@@Z) from main.obj
+      Discarded "public: void __thiscall std::allocator<class std::vector<bool,class std::allocator<bool> > >::deallocate(class std::vector<bool,class std::allocator<bool> > *,unsigned int)" (?deallocate@?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@std@@QAEXPAV?$vector@_NV?$allocator@_N@std@@@2@I@Z) from main.obj
+      Discarded "protected: void __thiscall std::vector<int,class std::allocator<int> >::_Destroy(int *,int *)" (?_Destroy@?$vector@HV?$allocator@H@std@@@std@@IAEXPAH0@Z) from main.obj
+      Discarded "public: void __thiscall std::allocator<int>::deallocate(int *,unsigned int)" (?deallocate@?$allocator@H@std@@QAEXPAHI@Z) from main.obj
+      Discarded "protected: bool __thiscall std::vector<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > >::_Buy(unsigned int)" (?_Buy@?$vector@V?$vector@HV?$allocator@H@std@@@std@@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@std@@IAE_NI@Z) from main.obj
+      Discarded "protected: void __thiscall std::vector<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > >::_Destroy(class std::vector<int,class std::allocator<int> > *,class std::vector<int,class std::allocator<int> > *)" (?_Destroy@?$vector@V?$vector@HV?$allocator@H@std@@@std@@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@std@@IAEXPAV?$vector@HV?$allocator@H@std@@@2@0@Z) from main.obj
+      Discarded "protected: class std::vector<int,class std::allocator<int> > * __thiscall std::vector<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > >::_Ufill(class std::vector<int,class std::allocator<int> > *,unsigned int,class std::vector<int,class std::allocator<int> > const *)" (?_Ufill@?$vector@V?$vector@HV?$allocator@H@std@@@std@@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@std@@IAEPAV?$vector@HV?$allocator@H@std@@@2@PAV32@IPBV32@@Z) from main.obj
+      Discarded "public: __thiscall std::allocator<class std::vector<int,class std::allocator<int> > >::allocator<class std::vector<int,class std::allocator<int> > >(class std::allocator<class std::vector<int,class std::allocator<int> > > const &)" (??0?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@std@@QAE@ABV01@@Z) from main.obj
+      Discarded "public: void __thiscall std::allocator<class std::vector<int,class std::allocator<int> > >::deallocate(class std::vector<int,class std::allocator<int> > *,unsigned int)" (?deallocate@?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@std@@QAEXPAV?$vector@HV?$allocator@H@std@@@2@I@Z) from main.obj
+      Discarded "public: __thiscall std::_Vb_reference<class std::allocator<bool> >::_Vb_reference<class std::allocator<bool> >(class std::_Vb_iter_base<class std::allocator<bool> > const &)" (??0?$_Vb_reference@V?$allocator@_N@std@@@std@@QAE@ABV?$_Vb_iter_base@V?$allocator@_N@std@@@1@@Z) from main.obj
+      Discarded "public: __thiscall std::_Vb_iterator<class std::allocator<bool> >::_Vb_iterator<class std::allocator<bool> >(unsigned int *,struct std::_Container_base0 *)" (??0?$_Vb_iterator@V?$allocator@_N@std@@@std@@QAE@PAIPAU_Container_base0@1@@Z) from main.obj
+      Discarded "public: class std::_Vb_iterator<class std::allocator<bool> > & __thiscall std::_Vb_iterator<class std::allocator<bool> >::operator+=(int)" (??Y?$_Vb_iterator@V?$allocator@_N@std@@@std@@QAEAAV01@H@Z) from main.obj
+      Discarded "public: class std::_Vector_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > > __thiscall std::_Vector_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >::operator+(int)const " (??H?$_Vector_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@std@@QBE?AV01@H@Z) from main.obj
+      Discarded "public: __thiscall std::allocator<unsigned int>::allocator<unsigned int>(class std::allocator<unsigned int> const &)" (??0?$allocator@I@std@@QAE@ABV01@@Z) from main.obj
+      Discarded "public: class std::_Vector_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > > __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::_Make_iter(class std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >)const " (?_Make_iter@?$vector@IV?$allocator@I@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@2@@Z) from main.obj
+      Discarded "public: unsigned int __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::max_size(void)const " (?max_size@?$vector@IV?$allocator@I@std@@@std@@QBEIXZ) from main.obj
+      Discarded "protected: void __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::_Destroy(unsigned int *,unsigned int *)" (?_Destroy@?$vector@IV?$allocator@I@std@@@std@@IAEXPAI0@Z) from main.obj
+      Discarded "public: __thiscall std::_Vector_val<unsigned int,class std::allocator<unsigned int> >::_Vector_val<unsigned int,class std::allocator<unsigned int> >(class std::allocator<unsigned int>)" (??0?$_Vector_val@IV?$allocator@I@std@@@std@@QAE@V?$allocator@I@1@@Z) from main.obj
+      Discarded "public: __thiscall std::_Vector_val<unsigned int,class std::allocator<unsigned int> >::~_Vector_val<unsigned int,class std::allocator<unsigned int> >(void)" (??1?$_Vector_val@IV?$allocator@I@std@@@std@@QAE@XZ) from main.obj
+      Discarded "public: void __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::push_back(class std::vector<bool,class std::allocator<bool> > &&)" (?push_back@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@QAEX$$QAV?$vector@_NV?$allocator@_N@std@@@2@@Z) from main.obj
+      Discarded "public: class std::_Vector_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > > __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::begin(void)" (?begin@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@@2@XZ) from main.obj
+      Discarded "public: class std::_Vector_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > > __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::end(void)" (?end@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@@2@XZ) from main.obj
+      Discarded "public: unsigned int __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::max_size(void)const " (?max_size@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@QBEIXZ) from main.obj
+      Discarded "public: class std::allocator<class std::vector<bool,class std::allocator<bool> > > __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::get_allocator(void)const " (?get_allocator@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@QBE?AV?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@XZ) from main.obj
+      Discarded "public: void __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::clear(void)" (?clear@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@QAEXXZ) from main.obj
+      Discarded "protected: void __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::_Xlen(void)const " (?_Xlen@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@IBEXXZ) from main.obj
+      Discarded "public: unsigned int __thiscall std::vector<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > >::max_size(void)const " (?max_size@?$vector@V?$vector@HV?$allocator@H@std@@@std@@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@std@@QBEIXZ) from main.obj
+      Discarded "protected: void __thiscall std::vector<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > >::_Xlen(void)const " (?_Xlen@?$vector@V?$vector@HV?$allocator@H@std@@@std@@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@std@@IBEXXZ) from main.obj
+      Discarded "public: class std::vector<int,class std::allocator<int> > * __thiscall std::allocator<class std::vector<int,class std::allocator<int> > >::allocate(unsigned int)" (?allocate@?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@std@@QAEPAV?$vector@HV?$allocator@H@std@@@2@I@Z) from main.obj
+      Discarded "public: __thiscall std::_Vb_iter_base<class std::allocator<bool> >::_Vb_iter_base<class std::allocator<bool> >(unsigned int const *,unsigned int,struct std::_Container_base0 const *)" (??0?$_Vb_iter_base@V?$allocator@_N@std@@@std@@QAE@PBIIPBU_Container_base0@1@@Z) from main.obj
+      Discarded "public: __thiscall std::_Vb_const_iterator<class std::allocator<bool> >::_Vb_const_iterator<class std::allocator<bool> >(unsigned int const *,struct std::_Container_base0 const *)" (??0?$_Vb_const_iterator@V?$allocator@_N@std@@@std@@QAE@PBIPBU_Container_base0@1@@Z) from main.obj
+      Discarded "public: class std::_Vb_const_iterator<class std::allocator<bool> > & __thiscall std::_Vb_const_iterator<class std::allocator<bool> >::operator+=(int)" (??Y?$_Vb_const_iterator@V?$allocator@_N@std@@@std@@QAEAAV01@H@Z) from main.obj
+      Discarded "public: __thiscall std::_Vector_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >::_Vector_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >(unsigned int *,struct std::_Container_base0 const *)" (??0?$_Vector_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@std@@QAE@PAIPBU_Container_base0@1@@Z) from main.obj
+      Discarded "public: class std::_Vector_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > > & __thiscall std::_Vector_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >::operator+=(int)" (??Y?$_Vector_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@std@@QAEAAV01@H@Z) from main.obj
+      Discarded "public: bool __thiscall std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >::operator!=(class std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > > const &)const " (??9?$_Vector_const_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@std@@QBE_NABV01@@Z) from main.obj
+      Discarded "public: class std::vector<bool,class std::allocator<bool> > & __thiscall std::_Vector_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > >::operator*(void)const " (??D?$_Vector_iterator@V?$_Vector_val@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@@std@@QBEAAV?$vector@_NV?$allocator@_N@std@@@1@XZ) from main.obj
+      Discarded "public: class std::_Vector_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > > & __thiscall std::_Vector_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > >::operator++(void)" (??E?$_Vector_iterator@V?$_Vector_val@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@@std@@QAEAAV01@XZ) from main.obj
+      Discarded "public: bool __thiscall std::_Vector_const_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > >::operator!=(class std::_Vector_const_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > > const &)const " (??9?$_Vector_const_iterator@V?$_Vector_val@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@@std@@QBE_NABV01@@Z) from main.obj
+      Discarded "public: void __thiscall std::allocator<unsigned int>::deallocate(unsigned int *,unsigned int)" (?deallocate@?$allocator@I@std@@QAEXPAII@Z) from main.obj
+      Discarded "public: unsigned int __thiscall std::allocator<unsigned int>::max_size(void)const " (?max_size@?$allocator@I@std@@QBEIXZ) from main.obj
+      Discarded "protected: bool __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::_Buy(unsigned int)" (?_Buy@?$vector@IV?$allocator@I@std@@@std@@IAE_NI@Z) from main.obj
+      Discarded "protected: unsigned int * __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::_Ufill(unsigned int *,unsigned int,unsigned int const *)" (?_Ufill@?$vector@IV?$allocator@I@std@@@std@@IAEPAIPAIIPBI@Z) from main.obj
+      Discarded "public: class std::_Vector_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > > __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::erase(class std::_Vector_const_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > >,class std::_Vector_const_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > >)" (?erase@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@@2@0@Z) from main.obj
+      Discarded "protected: bool __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::_Inside(class std::vector<bool,class std::allocator<bool> > const *)const " (?_Inside@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@IBE_NPBV?$vector@_NV?$allocator@_N@std@@@2@@Z) from main.obj
+      Discarded "protected: void __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::_Reserve(unsigned int)" (?_Reserve@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@IAEXI@Z) from main.obj
+      Discarded "protected: void __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::_Orphan_range(class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > *)const " (?_Orphan_range@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@IBEXPAV?$vector@_NV?$allocator@_N@std@@@2@0@Z) from main.obj
+      Discarded "public: unsigned int __thiscall std::allocator<class std::vector<bool,class std::allocator<bool> > >::max_size(void)const " (?max_size@?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@std@@QBEIXZ) from main.obj
+      Discarded "public: unsigned int __thiscall std::allocator<class std::vector<int,class std::allocator<int> > >::max_size(void)const " (?max_size@?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@std@@QBEIXZ) from main.obj
+      Discarded "public: __thiscall std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >(unsigned int *,struct std::_Container_base0 const *)" (??0?$_Vector_const_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@std@@QAE@PAIPBU_Container_base0@1@@Z) from main.obj
+      Discarded "public: class std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > > & __thiscall std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >::operator+=(int)" (??Y?$_Vector_const_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@std@@QAEAAV01@H@Z) from main.obj
+      Discarded "public: bool __thiscall std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >::operator==(class std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > > const &)const " (??8?$_Vector_const_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@std@@QBE_NABV01@@Z) from main.obj
+      Discarded "public: __thiscall std::_Vector_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > >::_Vector_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > >(class std::vector<bool,class std::allocator<bool> > *,struct std::_Container_base0 const *)" (??0?$_Vector_iterator@V?$_Vector_val@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@@std@@QAE@PAV?$vector@_NV?$allocator@_N@std@@@1@PBU_Container_base0@1@@Z) from main.obj
+      Discarded "public: class std::vector<bool,class std::allocator<bool> > const & __thiscall std::_Vector_const_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > >::operator*(void)const " (??D?$_Vector_const_iterator@V?$_Vector_val@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@@std@@QBEABV?$vector@_NV?$allocator@_N@std@@@1@XZ) from main.obj
+      Discarded "public: class std::_Vector_const_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > > & __thiscall std::_Vector_const_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > >::operator++(void)" (??E?$_Vector_const_iterator@V?$_Vector_val@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@@std@@QAEAAV01@XZ) from main.obj
+      Discarded "public: bool __thiscall std::_Vector_const_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > >::operator==(class std::_Vector_const_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > > const &)const " (??8?$_Vector_const_iterator@V?$_Vector_val@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@@std@@QBE_NABV01@@Z) from main.obj
+      Discarded "protected: void __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::_Xlen(void)const " (?_Xlen@?$vector@IV?$allocator@I@std@@@std@@IBEXXZ) from main.obj
+      Discarded "public: void __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::reserve(unsigned int)" (?reserve@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@QAEXI@Z) from main.obj
+      Discarded "public: unsigned int __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::capacity(void)const " (?capacity@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@QBEIXZ) from main.obj
+      Discarded "public: class std::_Vector_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > > __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::_Make_iter(class std::_Vector_const_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > >)const " (?_Make_iter@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@@2@@Z) from main.obj
+      Discarded "public: unsigned int __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::size(void)const " (?size@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@QBEIXZ) from main.obj
+      Discarded "protected: unsigned int __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::_Grow_to(unsigned int)const " (?_Grow_to@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@IBEII@Z) from main.obj
+      Discarded "public: void __thiscall std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >::_Compat(class std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > > const &)const " (?_Compat@?$_Vector_const_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@std@@QBEXABV12@@Z) from main.obj
+      Discarded "public: __thiscall std::_Vector_const_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > >::_Vector_const_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > >(class std::vector<bool,class std::allocator<bool> > *,struct std::_Container_base0 const *)" (??0?$_Vector_const_iterator@V?$_Vector_val@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@@std@@QAE@PAV?$vector@_NV?$allocator@_N@std@@@1@PBU_Container_base0@1@@Z) from main.obj
+      Discarded "public: void __thiscall std::_Vector_const_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > >::_Compat(class std::_Vector_const_iterator<class std::_Vector_val<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > > const &)const " (?_Compat@?$_Vector_const_iterator@V?$_Vector_val@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@@std@@QBEXABV12@@Z) from main.obj
+      Discarded "public: __thiscall std::vector<int,class std::allocator<int> >::vector<int,class std::allocator<int> ><int>(int,int)" (??$?0H@?$vector@HV?$allocator@H@std@@@std@@QAE@HH@Z) from main.obj
+      Discarded "class std::vector<bool,class std::allocator<bool> > const * __cdecl std::addressof<class std::vector<bool,class std::allocator<bool> > const >(class std::vector<bool,class std::allocator<bool> > const &)" (??$addressof@$$CBV?$vector@_NV?$allocator@_N@std@@@std@@@std@@YAPBV?$vector@_NV?$allocator@_N@std@@@0@ABV10@@Z) from main.obj
+      Discarded "bool __cdecl std::operator==<class std::vector<bool,class std::allocator<bool> >,class std::vector<bool,class std::allocator<bool> > >(class std::allocator<class std::vector<bool,class std::allocator<bool> > > const &,class std::allocator<class std::vector<bool,class std::allocator<bool> > > const &)" (??$?8V?$vector@_NV?$allocator@_N@std@@@std@@V01@@std@@YA_NABV?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@0@0@Z) from main.obj
+      Discarded "void __cdecl std::swap<class std::vector<bool,class std::allocator<bool> > *>(class std::vector<bool,class std::allocator<bool> > * &,class std::vector<bool,class std::allocator<bool> > * &)" (??$swap@PAV?$vector@_NV?$allocator@_N@std@@@std@@@std@@YAXAAPAV?$vector@_NV?$allocator@_N@std@@@0@0@Z) from main.obj
+      Discarded "class std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > && __cdecl std::_Move<class std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > &>(class std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > &)" (??$_Move@AAV?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@@std@@YA$$QAV?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@0@AAV10@@Z) from main.obj
+      Discarded "class std::vector<int,class std::allocator<int> > const * __cdecl std::addressof<class std::vector<int,class std::allocator<int> > const >(class std::vector<int,class std::allocator<int> > const &)" (??$addressof@$$CBV?$vector@HV?$allocator@H@std@@@std@@@std@@YAPBV?$vector@HV?$allocator@H@std@@@0@ABV10@@Z) from main.obj
+      Discarded "public: __thiscall std::allocator<unsigned int>::allocator<unsigned int><bool>(class std::allocator<bool> const &)" (??$?0_N@?$allocator@I@std@@QAE@ABV?$allocator@_N@1@@Z) from main.obj
+      Discarded "class std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > && __cdecl std::forward<class std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > >(class std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > > &)" (??$forward@V?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@@std@@YA$$QAV?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@0@AAV10@@Z) from main.obj
+      Discarded "unsigned int const * __cdecl std::addressof<unsigned int const >(unsigned int const &)" (??$addressof@$$CBI@std@@YAPBIABI@Z) from main.obj
+      Discarded "unsigned int * __cdecl std::_Move<unsigned int *,unsigned int *>(unsigned int *,unsigned int *,unsigned int *)" (??$_Move@PAIPAI@std@@YAPAIPAI00@Z) from main.obj
+      Discarded "bool __cdecl std::operator!=<class std::vector<bool,class std::allocator<bool> >,class std::vector<bool,class std::allocator<bool> > >(class std::allocator<class std::vector<bool,class std::allocator<bool> > > const &,class std::allocator<class std::vector<bool,class std::allocator<bool> > > const &)" (??$?9V?$vector@_NV?$allocator@_N@std@@@std@@V01@@std@@YA_NABV?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@0@0@Z) from main.obj
+      Discarded "class std::vector<bool,class std::allocator<bool> > && __cdecl std::forward<class std::vector<bool,class std::allocator<bool> > >(class std::vector<bool,class std::allocator<bool> > &)" (??$forward@V?$vector@_NV?$allocator@_N@std@@@std@@@std@@YA$$QAV?$vector@_NV?$allocator@_N@std@@@0@AAV10@@Z) from main.obj
+      Discarded "void __cdecl std::_Destroy_range<class std::allocator<class std::vector<bool,class std::allocator<bool> > > >(class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > *,class std::allocator<class std::vector<bool,class std::allocator<bool> > > &)" (??$_Destroy_range@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@std@@@std@@YAXPAV?$vector@_NV?$allocator@_N@std@@@0@0AAV?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@0@@Z) from main.obj
+      Discarded "void __cdecl std::_Uninitialized_fill_n<class std::vector<bool,class std::allocator<bool> > *,unsigned int,class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >(class std::vector<bool,class std::allocator<bool> > *,unsigned int,class std::vector<bool,class std::allocator<bool> > const *,class std::allocator<class std::vector<bool,class std::allocator<bool> > > &)" (??$_Uninitialized_fill_n@PAV?$vector@_NV?$allocator@_N@std@@@std@@IV12@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@YAXPAV?$vector@_NV?$allocator@_N@std@@@0@IPBV10@AAV?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@0@@Z) from main.obj
+      Discarded "void __cdecl std::_Destroy_range<class std::allocator<int> >(int *,int *,class std::allocator<int> &)" (??$_Destroy_range@V?$allocator@H@std@@@std@@YAXPAH0AAV?$allocator@H@0@@Z) from main.obj
+      Discarded "void __cdecl std::_Destroy_range<class std::allocator<class std::vector<int,class std::allocator<int> > > >(class std::vector<int,class std::allocator<int> > *,class std::vector<int,class std::allocator<int> > *,class std::allocator<class std::vector<int,class std::allocator<int> > > &)" (??$_Destroy_range@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@std@@@std@@YAXPAV?$vector@HV?$allocator@H@std@@@0@0AAV?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@0@@Z) from main.obj
+      Discarded "void __cdecl std::_Uninitialized_fill_n<class std::vector<int,class std::allocator<int> > *,unsigned int,class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > >(class std::vector<int,class std::allocator<int> > *,unsigned int,class std::vector<int,class std::allocator<int> > const *,class std::allocator<class std::vector<int,class std::allocator<int> > > &)" (??$_Uninitialized_fill_n@PAV?$vector@HV?$allocator@H@std@@@std@@IV12@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@std@@YAXPAV?$vector@HV?$allocator@H@std@@@0@IPBV10@AAV?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@0@@Z) from main.obj
+      Discarded "void __cdecl std::_Destroy_range<class std::allocator<unsigned int> >(unsigned int *,unsigned int *,class std::allocator<unsigned int> &)" (??$_Destroy_range@V?$allocator@I@std@@@std@@YAXPAI0AAV?$allocator@I@0@@Z) from main.obj
+      Discarded "class std::vector<bool,class std::allocator<bool> > * __cdecl std::addressof<class std::vector<bool,class std::allocator<bool> > >(class std::vector<bool,class std::allocator<bool> > &)" (??$addressof@V?$vector@_NV?$allocator@_N@std@@@std@@@std@@YAPAV?$vector@_NV?$allocator@_N@std@@@0@AAV10@@Z) from main.obj
+      Discarded "void __cdecl std::_Cons_val<class std::allocator<class std::vector<bool,class std::allocator<bool> > >,class std::vector<bool,class std::allocator<bool> >,class std::vector<bool,class std::allocator<bool> > >(class std::allocator<class std::vector<bool,class std::allocator<bool> > > &,class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > &&)" (??$_Cons_val@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@std@@V?$vector@_NV?$allocator@_N@std@@@2@V32@@std@@YAXAAV?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@0@PAV?$vector@_NV?$allocator@_N@std@@@0@$$QAV20@@Z) from main.obj
+      Discarded "class std::vector<bool,class std::allocator<bool> > * __cdecl std::_Allocate<class std::vector<bool,class std::allocator<bool> > >(unsigned int,class std::vector<bool,class std::allocator<bool> > *)" (??$_Allocate@V?$vector@_NV?$allocator@_N@std@@@std@@@std@@YAPAV?$vector@_NV?$allocator@_N@std@@@0@IPAV10@@Z) from main.obj
+      Discarded "class std::vector<int,class std::allocator<int> > * __cdecl std::_Allocate<class std::vector<int,class std::allocator<int> > >(unsigned int,class std::vector<int,class std::allocator<int> > *)" (??$_Allocate@V?$vector@HV?$allocator@H@std@@@std@@@std@@YAPAV?$vector@HV?$allocator@H@std@@@0@IPAV10@@Z) from main.obj
+      Discarded "void __cdecl std::_Uninitialized_fill_n<unsigned int *,unsigned int,unsigned int,class std::allocator<unsigned int> >(unsigned int *,unsigned int,unsigned int const *,class std::allocator<unsigned int> &)" (??$_Uninitialized_fill_n@PAIIIV?$allocator@I@std@@@std@@YAXPAIIPBIAAV?$allocator@I@0@@Z) from main.obj
+      Discarded "class std::vector<bool,class std::allocator<bool> > * __cdecl std::_Move<class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > *>(class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > *)" (??$_Move@PAV?$vector@_NV?$allocator@_N@std@@@std@@PAV12@@std@@YAPAV?$vector@_NV?$allocator@_N@std@@@0@PAV10@00@Z) from main.obj
+      Discarded "unsigned int * __cdecl std::_Allocate<unsigned int>(unsigned int,unsigned int *)" (??$_Allocate@I@std@@YAPAIIPAI@Z) from main.obj
+      Discarded "protected: class std::vector<bool,class std::allocator<bool> > * __thiscall std::vector<class std::vector<bool,class std::allocator<bool> >,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >::_Umove<class std::vector<bool,class std::allocator<bool> > *>(class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > *)" (??$_Umove@PAV?$vector@_NV?$allocator@_N@std@@@std@@@?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@IAEPAV?$vector@_NV?$allocator@_N@std@@@1@PAV21@00@Z) from main.obj
+      Discarded "public: void __thiscall std::allocator<class std::vector<bool,class std::allocator<bool> > >::construct(class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > &&)" (?construct@?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@std@@QAEXPAV?$vector@_NV?$allocator@_N@std@@@2@$$QAV32@@Z) from main.obj
+      Discarded "public: __thiscall std::_Vector_val<int,class std::allocator<int> >::_Vector_val<int,class std::allocator<int> >(class std::allocator<int>)" (??0?$_Vector_val@HV?$allocator@H@std@@@std@@QAE@V?$allocator@H@1@@Z) from main.obj
+      Discarded "public: __thiscall std::allocator<int>::allocator<int>(void)" (??0?$allocator@H@std@@QAE@XZ) from main.obj
+      Discarded "public: __thiscall std::vector<bool,class std::allocator<bool> >::vector<bool,class std::allocator<bool> >(class std::vector<bool,class std::allocator<bool> > &&)" (??0?$vector@_NV?$allocator@_N@std@@@std@@QAE@$$QAV01@@Z) from main.obj
+      Discarded "public: __thiscall std::allocator<int>::allocator<int>(class std::allocator<int> const &)" (??0?$allocator@H@std@@QAE@ABV01@@Z) from main.obj
+      Discarded "public: void __thiscall std::vector<bool,class std::allocator<bool> >::_Assign_rv(class std::vector<bool,class std::allocator<bool> > &&)" (?_Assign_rv@?$vector@_NV?$allocator@_N@std@@@std@@QAEX$$QAV12@@Z) from main.obj
+      Discarded "public: class std::allocator<bool> __thiscall std::vector<bool,class std::allocator<bool> >::get_allocator(void)const " (?get_allocator@?$vector@_NV?$allocator@_N@std@@@std@@QBE?AV?$allocator@_N@2@XZ) from main.obj
+      Discarded "public: class std::vector<bool,class std::allocator<bool> > & __thiscall std::vector<bool,class std::allocator<bool> >::operator=(class std::vector<bool,class std::allocator<bool> > const &)" (??4?$vector@_NV?$allocator@_N@std@@@std@@QAEAAV01@ABV01@@Z) from main.obj
+      Discarded "public: void __thiscall std::vector<bool,class std::allocator<bool> >::clear(void)" (?clear@?$vector@_NV?$allocator@_N@std@@@std@@QAEXXZ) from main.obj
+      Discarded "public: class std::vector<unsigned int,class std::allocator<unsigned int> > & __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::operator=(class std::vector<unsigned int,class std::allocator<unsigned int> > &&)" (??4?$vector@IV?$allocator@I@std@@@std@@QAEAAV01@$$QAV01@@Z) from main.obj
+      Discarded "public: class std::allocator<unsigned int> __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::get_allocator(void)const " (?get_allocator@?$vector@IV?$allocator@I@std@@@std@@QBE?AV?$allocator@I@2@XZ) from main.obj
+      Discarded "public: class std::_Vb_iterator<class std::allocator<bool> > __thiscall std::vector<bool,class std::allocator<bool> >::end(void)" (?end@?$vector@_NV?$allocator@_N@std@@@std@@QAE?AV?$_Vb_iterator@V?$allocator@_N@std@@@2@XZ) from main.obj
+      Discarded "public: class std::_Vb_iterator<class std::allocator<bool> > __thiscall std::vector<bool,class std::allocator<bool> >::erase(class std::_Vb_const_iterator<class std::allocator<bool> >,class std::_Vb_const_iterator<class std::allocator<bool> >)" (?erase@?$vector@_NV?$allocator@_N@std@@@std@@QAE?AV?$_Vb_iterator@V?$allocator@_N@std@@@2@V?$_Vb_const_iterator@V?$allocator@_N@std@@@2@0@Z) from main.obj
+      Discarded "public: void __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::_Assign_rv(class std::vector<unsigned int,class std::allocator<unsigned int> > &&)" (?_Assign_rv@?$vector@IV?$allocator@I@std@@@std@@QAEX$$QAV12@@Z) from main.obj
+      Discarded "public: class std::vector<unsigned int,class std::allocator<unsigned int> > & __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::operator=(class std::vector<unsigned int,class std::allocator<unsigned int> > const &)" (??4?$vector@IV?$allocator@I@std@@@std@@QAEAAV01@ABV01@@Z) from main.obj
+      Discarded "public: class std::_Vb_iterator<class std::allocator<bool> > __thiscall std::vector<bool,class std::allocator<bool> >::_Make_iter(class std::_Vb_const_iterator<class std::allocator<bool> >)" (?_Make_iter@?$vector@_NV?$allocator@_N@std@@@std@@QAE?AV?$_Vb_iterator@V?$allocator@_N@std@@@2@V?$_Vb_const_iterator@V?$allocator@_N@std@@@2@@Z) from main.obj
+      Discarded "public: void __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::push_back(unsigned int &&)" (?push_back@?$vector@IV?$allocator@I@std@@@std@@QAEX$$QAI@Z) from main.obj
+      Discarded "public: unsigned int __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::capacity(void)const " (?capacity@?$vector@IV?$allocator@I@std@@@std@@QBEIXZ) from main.obj
+      Discarded "public: void __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::clear(void)" (?clear@?$vector@IV?$allocator@I@std@@@std@@QAEXXZ) from main.obj
+      Discarded "public: int __thiscall std::_Vb_iterator<class std::allocator<bool> >::operator-(class std::_Vb_const_iterator<class std::allocator<bool> > const &)const " (??G?$_Vb_iterator@V?$allocator@_N@std@@@std@@QBEHABV?$_Vb_const_iterator@V?$allocator@_N@std@@@1@@Z) from main.obj
+      Discarded "public: bool __thiscall std::_Vb_const_iterator<class std::allocator<bool> >::operator!=(class std::_Vb_const_iterator<class std::allocator<bool> > const &)const " (??9?$_Vb_const_iterator@V?$allocator@_N@std@@@std@@QBE_NABV01@@Z) from main.obj
+      Discarded "public: unsigned int & __thiscall std::_Vector_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >::operator*(void)const " (??D?$_Vector_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@std@@QBEAAIXZ) from main.obj
+      Discarded "public: class std::_Vector_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > > & __thiscall std::_Vector_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >::operator++(void)" (??E?$_Vector_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@std@@QAEAAV01@XZ) from main.obj
+      Discarded "protected: bool __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::_Inside(unsigned int const *)const " (?_Inside@?$vector@IV?$allocator@I@std@@@std@@IBE_NPBI@Z) from main.obj
+      Discarded "protected: void __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::_Reserve(unsigned int)" (?_Reserve@?$vector@IV?$allocator@I@std@@@std@@IAEXI@Z) from main.obj
+      Discarded "protected: void __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::_Orphan_range(unsigned int *,unsigned int *)const " (?_Orphan_range@?$vector@IV?$allocator@I@std@@@std@@IBEXPAI0@Z) from main.obj
+      Discarded "public: int __thiscall std::_Vb_const_iterator<class std::allocator<bool> >::operator-(class std::_Vb_const_iterator<class std::allocator<bool> > const &)const " (??G?$_Vb_const_iterator@V?$allocator@_N@std@@@std@@QBEHABV01@@Z) from main.obj
+      Discarded "public: bool __thiscall std::_Vb_const_iterator<class std::allocator<bool> >::operator==(class std::_Vb_const_iterator<class std::allocator<bool> > const &)const " (??8?$_Vb_const_iterator@V?$allocator@_N@std@@@std@@QBE_NABV01@@Z) from main.obj
+      Discarded "public: unsigned int const & __thiscall std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >::operator*(void)const " (??D?$_Vector_const_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@std@@QBEABIXZ) from main.obj
+      Discarded "public: class std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > > & __thiscall std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >::operator++(void)" (??E?$_Vector_const_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@std@@QAEAAV01@XZ) from main.obj
+      Discarded "public: void __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::reserve(unsigned int)" (?reserve@?$vector@IV?$allocator@I@std@@@std@@QAEXI@Z) from main.obj
+      Discarded "protected: unsigned int __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::_Grow_to(unsigned int)const " (?_Grow_to@?$vector@IV?$allocator@I@std@@@std@@IBEII@Z) from main.obj
+      Discarded "public: void __thiscall std::_Vb_const_iterator<class std::allocator<bool> >::_Compat(class std::_Vb_const_iterator<class std::allocator<bool> > const &)const " (?_Compat@?$_Vb_const_iterator@V?$allocator@_N@std@@@std@@QBEXABV12@@Z) from main.obj
+      Discarded "struct std::_Int_iterator_tag __cdecl std::_Iter_cat<int>(int const &)" (??$_Iter_cat@H@std@@YA?AU_Int_iterator_tag@0@ABH@Z) from main.obj
+      Discarded "public: void __thiscall std::vector<int,class std::allocator<int> >::_Construct<int>(int,int,struct std::_Int_iterator_tag)" (??$_Construct@H@?$vector@HV?$allocator@H@std@@@std@@QAEXHHU_Int_iterator_tag@1@@Z) from main.obj
+      Discarded "class std::vector<bool,class std::allocator<bool> > * && __cdecl std::_Move<class std::vector<bool,class std::allocator<bool> > * &>(class std::vector<bool,class std::allocator<bool> > * &)" (??$_Move@AAPAV?$vector@_NV?$allocator@_N@std@@@std@@@std@@YA$$QAPAV?$vector@_NV?$allocator@_N@std@@@0@AAPAV10@@Z) from main.obj
+      Discarded "struct std::_Scalar_ptr_iterator_tag __cdecl std::_Ptr_cat<unsigned int,unsigned int>(unsigned int *,unsigned int *)" (??$_Ptr_cat@II@std@@YA?AU_Scalar_ptr_iterator_tag@0@PAI0@Z) from main.obj
+      Discarded "unsigned int * __cdecl std::_Move<unsigned int *,unsigned int *>(unsigned int *,unsigned int *,unsigned int *,struct std::_Scalar_ptr_iterator_tag)" (??$_Move@PAIPAI@std@@YAPAIPAI00U_Scalar_ptr_iterator_tag@0@@Z) from main.obj
+      Discarded "struct std::_Nonscalar_ptr_iterator_tag __cdecl std::_Ptr_cat<class std::vector<bool,class std::allocator<bool> >,class std::vector<bool,class std::allocator<bool> > >(class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > *)" (??$_Ptr_cat@V?$vector@_NV?$allocator@_N@std@@@std@@V12@@std@@YA?AU_Nonscalar_ptr_iterator_tag@0@PAV?$vector@_NV?$allocator@_N@std@@@0@0@Z) from main.obj
+      Discarded "void __cdecl std::_Destroy_range<class std::allocator<class std::vector<bool,class std::allocator<bool> > > >(class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > *,class std::allocator<class std::vector<bool,class std::allocator<bool> > > &,struct std::_Nonscalar_ptr_iterator_tag)" (??$_Destroy_range@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@std@@@std@@YAXPAV?$vector@_NV?$allocator@_N@std@@@0@0AAV?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@0@U_Nonscalar_ptr_iterator_tag@0@@Z) from main.obj
+      Discarded "class std::vector<bool,class std::allocator<bool> > * __cdecl std::_Val_type<class std::vector<bool,class std::allocator<bool> > *>(class std::vector<bool,class std::allocator<bool> > *)" (??$_Val_type@PAV?$vector@_NV?$allocator@_N@std@@@std@@@std@@YAPAV?$vector@_NV?$allocator@_N@std@@@0@PAV10@@Z) from main.obj
+      Discarded "struct std::_Scalar_ptr_iterator_tag __cdecl std::_Ptr_cat<int,int>(int *,int *)" (??$_Ptr_cat@HH@std@@YA?AU_Scalar_ptr_iterator_tag@0@PAH0@Z) from main.obj
+      Discarded "void __cdecl std::_Destroy_range<class std::allocator<int> >(int *,int *,class std::allocator<int> &,struct std::_Scalar_ptr_iterator_tag)" (??$_Destroy_range@V?$allocator@H@std@@@std@@YAXPAH0AAV?$allocator@H@0@U_Scalar_ptr_iterator_tag@0@@Z) from main.obj
+      Discarded "struct std::_Nonscalar_ptr_iterator_tag __cdecl std::_Ptr_cat<class std::vector<int,class std::allocator<int> >,class std::vector<int,class std::allocator<int> > >(class std::vector<int,class std::allocator<int> > *,class std::vector<int,class std::allocator<int> > *)" (??$_Ptr_cat@V?$vector@HV?$allocator@H@std@@@std@@V12@@std@@YA?AU_Nonscalar_ptr_iterator_tag@0@PAV?$vector@HV?$allocator@H@std@@@0@0@Z) from main.obj
+      Discarded "void __cdecl std::_Destroy_range<class std::allocator<class std::vector<int,class std::allocator<int> > > >(class std::vector<int,class std::allocator<int> > *,class std::vector<int,class std::allocator<int> > *,class std::allocator<class std::vector<int,class std::allocator<int> > > &,struct std::_Nonscalar_ptr_iterator_tag)" (??$_Destroy_range@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@std@@@std@@YAXPAV?$vector@HV?$allocator@H@std@@@0@0AAV?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@0@U_Nonscalar_ptr_iterator_tag@0@@Z) from main.obj
+      Discarded "class std::vector<int,class std::allocator<int> > * __cdecl std::_Val_type<class std::vector<int,class std::allocator<int> > *>(class std::vector<int,class std::allocator<int> > *)" (??$_Val_type@PAV?$vector@HV?$allocator@H@std@@@std@@@std@@YAPAV?$vector@HV?$allocator@H@std@@@0@PAV10@@Z) from main.obj
+      Discarded "void __cdecl std::_Destroy_range<class std::allocator<unsigned int> >(unsigned int *,unsigned int *,class std::allocator<unsigned int> &,struct std::_Scalar_ptr_iterator_tag)" (??$_Destroy_range@V?$allocator@I@std@@@std@@YAXPAI0AAV?$allocator@I@0@U_Scalar_ptr_iterator_tag@0@@Z) from main.obj
+      Discarded "unsigned int * __cdecl std::_Val_type<unsigned int *>(unsigned int *)" (??$_Val_type@PAI@std@@YAPAIPAI@Z) from main.obj
+      Discarded "void __cdecl std::_Uninit_fill_n<unsigned int,unsigned int,unsigned int,unsigned int>(unsigned int *,unsigned int,unsigned int const *,class std::allocator<unsigned int> &,unsigned int *,struct std::_Scalar_ptr_iterator_tag)" (??$_Uninit_fill_n@IIII@std@@YAXPAIIPBIAAV?$allocator@I@0@0U_Scalar_ptr_iterator_tag@0@@Z) from main.obj
+      Discarded "class std::vector<bool,class std::allocator<bool> > * __cdecl std::_Move<class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > *>(class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > *,struct std::_Nonscalar_ptr_iterator_tag)" (??$_Move@PAV?$vector@_NV?$allocator@_N@std@@@std@@PAV12@@std@@YAPAV?$vector@_NV?$allocator@_N@std@@@0@PAV10@00U_Nonscalar_ptr_iterator_tag@0@@Z) from main.obj
+      Discarded "class std::vector<bool,class std::allocator<bool> > * __cdecl std::_Uninitialized_move<class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > *,class std::allocator<class std::vector<bool,class std::allocator<bool> > > >(class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > *,class std::allocator<class std::vector<bool,class std::allocator<bool> > > &)" (??$_Uninitialized_move@PAV?$vector@_NV?$allocator@_N@std@@@std@@PAV12@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@YAPAV?$vector@_NV?$allocator@_N@std@@@0@PAV10@00AAV?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@0@@Z) from main.obj
+      Discarded "class std::vector<bool,class std::allocator<bool> > && __cdecl std::move<class std::vector<bool,class std::allocator<bool> > &>(class std::vector<bool,class std::allocator<bool> > &)" (??$move@AAV?$vector@_NV?$allocator@_N@std@@@std@@@std@@YA$$QAV?$vector@_NV?$allocator@_N@std@@@0@AAV10@@Z) from main.obj
+      Discarded "bool __cdecl std::operator!=<bool,bool>(class std::allocator<bool> const &,class std::allocator<bool> const &)" (??$?9_N_N@std@@YA_NABV?$allocator@_N@0@0@Z) from main.obj
+      Discarded "class std::vector<unsigned int,class std::allocator<unsigned int> > && __cdecl std::move<class std::vector<unsigned int,class std::allocator<unsigned int> > &>(class std::vector<unsigned int,class std::allocator<unsigned int> > &)" (??$move@AAV?$vector@IV?$allocator@I@std@@@std@@@std@@YA$$QAV?$vector@IV?$allocator@I@std@@@0@AAV10@@Z) from main.obj
+      Discarded "public: __thiscall std::allocator<bool>::allocator<bool><unsigned int>(class std::allocator<unsigned int> const &)" (??$?0I@?$allocator@_N@std@@QAE@ABV?$allocator@I@1@@Z) from main.obj
+      Discarded "class std::vector<unsigned int,class std::allocator<unsigned int> > && __cdecl std::forward<class std::vector<unsigned int,class std::allocator<unsigned int> > >(class std::vector<unsigned int,class std::allocator<unsigned int> > &)" (??$forward@V?$vector@IV?$allocator@I@std@@@std@@@std@@YA$$QAV?$vector@IV?$allocator@I@std@@@0@AAV10@@Z) from main.obj
+      Discarded "class std::_Vb_iterator<class std::allocator<bool> > __cdecl std::copy<class std::_Vb_iterator<class std::allocator<bool> >,class std::_Vb_iterator<class std::allocator<bool> > >(class std::_Vb_iterator<class std::allocator<bool> >,class std::_Vb_iterator<class std::allocator<bool> >,class std::_Vb_iterator<class std::allocator<bool> >)" (??$copy@V?$_Vb_iterator@V?$allocator@_N@std@@@std@@V12@@std@@YA?AV?$_Vb_iterator@V?$allocator@_N@std@@@0@V10@00@Z) from main.obj
+      Discarded "bool __cdecl std::operator!=<unsigned int,unsigned int>(class std::allocator<unsigned int> const &,class std::allocator<unsigned int> const &)" (??$?9II@std@@YA_NABV?$allocator@I@0@0@Z) from main.obj
+      Discarded "unsigned int && __cdecl std::forward<unsigned int>(unsigned int &)" (??$forward@I@std@@YA$$QAIAAI@Z) from main.obj
+      Discarded "unsigned int * __cdecl std::_Copy_impl<unsigned int *,unsigned int *>(unsigned int *,unsigned int *,unsigned int *)" (??$_Copy_impl@PAIPAI@std@@YAPAIPAI00@Z) from main.obj
+      Discarded "protected: unsigned int * __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::_Ucopy<unsigned int *>(unsigned int *,unsigned int *,unsigned int *)" (??$_Ucopy@PAI@?$vector@IV?$allocator@I@std@@@std@@IAEPAIPAI00@Z) from main.obj
+      Discarded "unsigned int * __cdecl std::addressof<unsigned int>(unsigned int &)" (??$addressof@I@std@@YAPAIAAI@Z) from main.obj
+      Discarded "void __cdecl std::_Cons_val<class std::allocator<unsigned int>,unsigned int,unsigned int>(class std::allocator<unsigned int> &,unsigned int *,unsigned int &&)" (??$_Cons_val@V?$allocator@I@std@@II@std@@YAXAAV?$allocator@I@0@PAI$$QAI@Z) from main.obj
+      Discarded "protected: unsigned int * __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::_Umove<unsigned int *>(unsigned int *,unsigned int *,unsigned int *)" (??$_Umove@PAI@?$vector@IV?$allocator@I@std@@@std@@IAEPAIPAI00@Z) from main.obj
+      Discarded "public: class std::vector<bool,class std::allocator<bool> > & __thiscall std::vector<bool,class std::allocator<bool> >::operator=(class std::vector<bool,class std::allocator<bool> > &&)" (??4?$vector@_NV?$allocator@_N@std@@@std@@QAEAAV01@$$QAV01@@Z) from main.obj
+      Discarded "public: void __thiscall std::allocator<unsigned int>::construct(unsigned int *,unsigned int &&)" (?construct@?$allocator@I@std@@QAEXPAI$$QAI@Z) from main.obj
+      Discarded "protected: bool __thiscall std::vector<int,class std::allocator<int> >::_Buy(unsigned int)" (?_Buy@?$vector@HV?$allocator@H@std@@@std@@IAE_NI@Z) from main.obj
+      Discarded "protected: int * __thiscall std::vector<int,class std::allocator<int> >::_Ufill(int *,unsigned int,int const *)" (?_Ufill@?$vector@HV?$allocator@H@std@@@std@@IAEPAHPAHIPBH@Z) from main.obj
+      Discarded "public: unsigned int __thiscall std::vector<int,class std::allocator<int> >::max_size(void)const " (?max_size@?$vector@HV?$allocator@H@std@@@std@@QBEIXZ) from main.obj
+      Discarded "protected: void __thiscall std::vector<int,class std::allocator<int> >::_Xlen(void)const " (?_Xlen@?$vector@HV?$allocator@H@std@@@std@@IBEXXZ) from main.obj
+      Discarded "public: unsigned int __thiscall std::allocator<int>::max_size(void)const " (?max_size@?$allocator@H@std@@QBEIXZ) from main.obj
+      Discarded "int * __cdecl std::addressof<int>(int &)" (??$addressof@H@std@@YAPAHAAH@Z) from main.obj
+      Discarded "void __cdecl std::_Cons_val<class std::allocator<class std::vector<bool,class std::allocator<bool> > >,class std::vector<bool,class std::allocator<bool> >,class std::vector<bool,class std::allocator<bool> > const &>(class std::allocator<class std::vector<bool,class std::allocator<bool> > > &,class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > const &)" (??$_Cons_val@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@std@@V?$vector@_NV?$allocator@_N@std@@@2@ABV32@@std@@YAXAAV?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@0@PAV?$vector@_NV?$allocator@_N@std@@@0@ABV20@@Z) from main.obj
+      Discarded "void __cdecl std::_Cons_val<class std::allocator<class std::vector<int,class std::allocator<int> > >,class std::vector<int,class std::allocator<int> >,class std::vector<int,class std::allocator<int> > const &>(class std::allocator<class std::vector<int,class std::allocator<int> > > &,class std::vector<int,class std::allocator<int> > *,class std::vector<int,class std::allocator<int> > const &)" (??$_Cons_val@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@std@@V?$vector@HV?$allocator@H@std@@@2@ABV32@@std@@YAXAAV?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@0@PAV?$vector@HV?$allocator@H@std@@@0@ABV20@@Z) from main.obj
+      Discarded "void __cdecl std::_Fill_n<unsigned int *,unsigned int,unsigned int>(unsigned int *,unsigned int,unsigned int const &)" (??$_Fill_n@PAIII@std@@YAXPAIIABI@Z) from main.obj
+      Discarded "class std::vector<bool,class std::allocator<bool> > * __cdecl std::_Uninit_move<class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > *,class std::allocator<class std::vector<bool,class std::allocator<bool> > >,class std::vector<bool,class std::allocator<bool> > >(class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > *,class std::allocator<class std::vector<bool,class std::allocator<bool> > > &,class std::vector<bool,class std::allocator<bool> > *,struct std::_Nonscalar_ptr_iterator_tag)" (??$_Uninit_move@PAV?$vector@_NV?$allocator@_N@std@@@std@@PAV12@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@V12@@std@@YAPAV?$vector@_NV?$allocator@_N@std@@@0@PAV10@00AAV?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z) from main.obj
+      Discarded "bool __cdecl std::operator==<bool,bool>(class std::allocator<bool> const &,class std::allocator<bool> const &)" (??$?8_N_N@std@@YA_NABV?$allocator@_N@0@0@Z) from main.obj
+      Discarded "class std::_Vb_iterator<class std::allocator<bool> > __cdecl std::_Unchecked<class std::_Vb_iterator<class std::allocator<bool> > >(class std::_Vb_iterator<class std::allocator<bool> >)" (??$_Unchecked@V?$_Vb_iterator@V?$allocator@_N@std@@@std@@@std@@YA?AV?$_Vb_iterator@V?$allocator@_N@std@@@0@V10@@Z) from main.obj
+      Discarded "class std::_Vb_iterator<class std::allocator<bool> > __cdecl std::_Copy_impl<class std::_Vb_iterator<class std::allocator<bool> >,class std::_Vb_iterator<class std::allocator<bool> > >(class std::_Vb_iterator<class std::allocator<bool> >,class std::_Vb_iterator<class std::allocator<bool> >,class std::_Vb_iterator<class std::allocator<bool> >)" (??$_Copy_impl@V?$_Vb_iterator@V?$allocator@_N@std@@@std@@V12@@std@@YA?AV?$_Vb_iterator@V?$allocator@_N@std@@@0@V10@00@Z) from main.obj
+      Discarded "class std::_Vb_iterator<class std::allocator<bool> > & __cdecl std::_Rechecked<class std::_Vb_iterator<class std::allocator<bool> >,class std::_Vb_iterator<class std::allocator<bool> > >(class std::_Vb_iterator<class std::allocator<bool> > &,class std::_Vb_iterator<class std::allocator<bool> >)" (??$_Rechecked@V?$_Vb_iterator@V?$allocator@_N@std@@@std@@V12@@std@@YAAAV?$_Vb_iterator@V?$allocator@_N@std@@@0@AAV10@V10@@Z) from main.obj
+      Discarded "bool __cdecl std::operator==<unsigned int,unsigned int>(class std::allocator<unsigned int> const &,class std::allocator<unsigned int> const &)" (??$?8II@std@@YA_NABV?$allocator@I@0@0@Z) from main.obj
+      Discarded "unsigned int * __cdecl std::_Copy_impl<unsigned int *,unsigned int *>(unsigned int *,unsigned int *,unsigned int *,struct std::_Scalar_ptr_iterator_tag)" (??$_Copy_impl@PAIPAI@std@@YAPAIPAI00U_Scalar_ptr_iterator_tag@0@@Z) from main.obj
+      Discarded "unsigned int * __cdecl std::_Uninitialized_copy<unsigned int *,unsigned int *,class std::allocator<unsigned int> >(unsigned int *,unsigned int *,unsigned int *,class std::allocator<unsigned int> &)" (??$_Uninitialized_copy@PAIPAIV?$allocator@I@std@@@std@@YAPAIPAI00AAV?$allocator@I@0@@Z) from main.obj
+      Discarded "unsigned int * __cdecl std::_Uninitialized_move<unsigned int *,unsigned int *,class std::allocator<unsigned int> >(unsigned int *,unsigned int *,unsigned int *,class std::allocator<unsigned int> &)" (??$_Uninitialized_move@PAIPAIV?$allocator@I@std@@@std@@YAPAIPAI00AAV?$allocator@I@0@@Z) from main.obj
+      Discarded "void __cdecl std::_Uninitialized_fill_n<int *,unsigned int,int,class std::allocator<int> >(int *,unsigned int,int const *,class std::allocator<int> &)" (??$_Uninitialized_fill_n@PAHIHV?$allocator@H@std@@@std@@YAXPAHIPBHAAV?$allocator@H@0@@Z) from main.obj
+      Discarded "int * __cdecl std::_Allocate<int>(unsigned int,int *)" (??$_Allocate@H@std@@YAPAHIPAH@Z) from main.obj
+      Discarded "public: void __thiscall std::allocator<class std::vector<bool,class std::allocator<bool> > >::construct(class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > const &)" (?construct@?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@std@@QAEXPAV?$vector@_NV?$allocator@_N@std@@@2@ABV32@@Z) from main.obj
+      Discarded "public: void __thiscall std::allocator<class std::vector<bool,class std::allocator<bool> > >::destroy(class std::vector<bool,class std::allocator<bool> > *)" (?destroy@?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@std@@QAEXPAV?$vector@_NV?$allocator@_N@std@@@2@@Z) from main.obj
+      Discarded "public: void __thiscall std::allocator<class std::vector<int,class std::allocator<int> > >::construct(class std::vector<int,class std::allocator<int> > *,class std::vector<int,class std::allocator<int> > const &)" (?construct@?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@std@@QAEXPAV?$vector@HV?$allocator@H@std@@@2@ABV32@@Z) from main.obj
+      Discarded "public: void __thiscall std::allocator<class std::vector<int,class std::allocator<int> > >::destroy(class std::vector<int,class std::allocator<int> > *)" (?destroy@?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@std@@QAEXPAV?$vector@HV?$allocator@H@std@@@2@@Z) from main.obj
+      Discarded "class std::vector<bool,class std::allocator<bool> > const & __cdecl std::forward<class std::vector<bool,class std::allocator<bool> > const &>(class std::vector<bool,class std::allocator<bool> > const &)" (??$forward@ABV?$vector@_NV?$allocator@_N@std@@@std@@@std@@YAABV?$vector@_NV?$allocator@_N@std@@@0@ABV10@@Z) from main.obj
+      Discarded "class std::vector<int,class std::allocator<int> > const & __cdecl std::forward<class std::vector<int,class std::allocator<int> > const &>(class std::vector<int,class std::allocator<int> > const &)" (??$forward@ABV?$vector@HV?$allocator@H@std@@@std@@@std@@YAABV?$vector@HV?$allocator@H@std@@@0@ABV10@@Z) from main.obj
+      Discarded "struct std::_Nonscalar_ptr_iterator_tag __cdecl std::_Ptr_cat<class std::_Vb_iterator<class std::allocator<bool> >,class std::_Vb_iterator<class std::allocator<bool> > >(class std::_Vb_iterator<class std::allocator<bool> > &,class std::_Vb_iterator<class std::allocator<bool> > &)" (??$_Ptr_cat@V?$_Vb_iterator@V?$allocator@_N@std@@@std@@V12@@std@@YA?AU_Nonscalar_ptr_iterator_tag@0@AAV?$_Vb_iterator@V?$allocator@_N@std@@@0@0@Z) from main.obj
+      Discarded "class std::_Vb_iterator<class std::allocator<bool> > __cdecl std::_Copy_impl<class std::_Vb_iterator<class std::allocator<bool> >,class std::_Vb_iterator<class std::allocator<bool> > >(class std::_Vb_iterator<class std::allocator<bool> >,class std::_Vb_iterator<class std::allocator<bool> >,class std::_Vb_iterator<class std::allocator<bool> >,struct std::_Nonscalar_ptr_iterator_tag)" (??$_Copy_impl@V?$_Vb_iterator@V?$allocator@_N@std@@@std@@V12@@std@@YA?AV?$_Vb_iterator@V?$allocator@_N@std@@@0@V10@00U_Nonscalar_ptr_iterator_tag@0@@Z) from main.obj
+      Discarded "unsigned int * __cdecl std::_Uninit_copy<unsigned int,unsigned int>(unsigned int *,unsigned int *,unsigned int *,class std::allocator<unsigned int> &,struct std::_Scalar_ptr_iterator_tag)" (??$_Uninit_copy@II@std@@YAPAIPAI00AAV?$allocator@I@0@U_Scalar_ptr_iterator_tag@0@@Z) from main.obj
+      Discarded "unsigned int * __cdecl std::_Uninit_move<unsigned int,unsigned int,unsigned int>(unsigned int *,unsigned int *,unsigned int *,class std::allocator<unsigned int> &,unsigned int *,struct std::_Scalar_ptr_iterator_tag)" (??$_Uninit_move@III@std@@YAPAIPAI00AAV?$allocator@I@0@0U_Scalar_ptr_iterator_tag@0@@Z) from main.obj
+      Discarded "int * __cdecl std::_Val_type<int *>(int *)" (??$_Val_type@PAH@std@@YAPAHPAH@Z) from main.obj
+      Discarded "void __cdecl std::_Uninit_fill_n<int,unsigned int,int,int>(int *,unsigned int,int const *,class std::allocator<int> &,int *,struct std::_Scalar_ptr_iterator_tag)" (??$_Uninit_fill_n@HIHH@std@@YAXPAHIPBHAAV?$allocator@H@0@0U_Scalar_ptr_iterator_tag@0@@Z) from main.obj
+      Discarded "void __cdecl std::_Construct<class std::vector<bool,class std::allocator<bool> >,class std::vector<bool,class std::allocator<bool> > const &>(class std::vector<bool,class std::allocator<bool> > *,class std::vector<bool,class std::allocator<bool> > const &)" (??$_Construct@V?$vector@_NV?$allocator@_N@std@@@std@@ABV12@@std@@YAXPAV?$vector@_NV?$allocator@_N@std@@@0@ABV10@@Z) from main.obj
+      Discarded "void __cdecl std::_Destroy<class std::vector<bool,class std::allocator<bool> > >(class std::vector<bool,class std::allocator<bool> > *)" (??$_Destroy@V?$vector@_NV?$allocator@_N@std@@@std@@@std@@YAXPAV?$vector@_NV?$allocator@_N@std@@@0@@Z) from main.obj
+      Discarded "void __cdecl std::_Construct<class std::vector<int,class std::allocator<int> >,class std::vector<int,class std::allocator<int> > const &>(class std::vector<int,class std::allocator<int> > *,class std::vector<int,class std::allocator<int> > const &)" (??$_Construct@V?$vector@HV?$allocator@H@std@@@std@@ABV12@@std@@YAXPAV?$vector@HV?$allocator@H@std@@@0@ABV10@@Z) from main.obj
+      Discarded "void __cdecl std::_Destroy<class std::vector<int,class std::allocator<int> > >(class std::vector<int,class std::allocator<int> > *)" (??$_Destroy@V?$vector@HV?$allocator@H@std@@@std@@@std@@YAXPAV?$vector@HV?$allocator@H@std@@@0@@Z) from main.obj
+      Discarded "public: void * __thiscall std::vector<bool,class std::allocator<bool> >::`scalar deleting destructor'(unsigned int)" (??_G?$vector@_NV?$allocator@_N@std@@@std@@QAEPAXI@Z) from main.obj
+      Discarded "public: void * __thiscall std::vector<int,class std::allocator<int> >::`scalar deleting destructor'(unsigned int)" (??_G?$vector@HV?$allocator@H@std@@@std@@QAEPAXI@Z) from main.obj
+      Discarded "public: __thiscall std::vector<bool,class std::allocator<bool> >::vector<bool,class std::allocator<bool> >(class std::vector<bool,class std::allocator<bool> > const &)" (??0?$vector@_NV?$allocator@_N@std@@@std@@QAE@ABV01@@Z) from main.obj
+      Discarded "public: class std::_Vb_iterator<class std::allocator<bool> > & __thiscall std::_Vb_iterator<class std::allocator<bool> >::operator++(void)" (??E?$_Vb_iterator@V?$allocator@_N@std@@@std@@QAEAAV01@XZ) from main.obj
+      Discarded "public: __thiscall std::_Vb_val<class std::allocator<bool> >::_Vb_val<class std::allocator<bool> >(class std::_Vb_val<class std::allocator<bool> > const &)" (??0?$_Vb_val@V?$allocator@_N@std@@@std@@QAE@ABV01@@Z) from main.obj
+      Discarded "public: class std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > > __thiscall std::vector<int,class std::allocator<int> >::begin(void)const " (?begin@?$vector@HV?$allocator@H@std@@@std@@QBE?AV?$_Vector_const_iterator@V?$_Vector_val@HV?$allocator@H@std@@@std@@@2@XZ) from main.obj
+      Discarded "public: class std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > > __thiscall std::vector<int,class std::allocator<int> >::end(void)const " (?end@?$vector@HV?$allocator@H@std@@@std@@QBE?AV?$_Vector_const_iterator@V?$_Vector_val@HV?$allocator@H@std@@@std@@@2@XZ) from main.obj
+      Discarded "public: unsigned int __thiscall std::vector<int,class std::allocator<int> >::size(void)const " (?size@?$vector@HV?$allocator@H@std@@@std@@QBEIXZ) from main.obj
+      Discarded "public: class std::_Vb_const_iterator<class std::allocator<bool> > & __thiscall std::_Vb_const_iterator<class std::allocator<bool> >::operator++(void)" (??E?$_Vb_const_iterator@V?$allocator@_N@std@@@std@@QAEAAV01@XZ) from main.obj
+      Discarded "public: class std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > > __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::begin(void)const " (?begin@?$vector@IV?$allocator@I@std@@@std@@QBE?AV?$_Vector_const_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@2@XZ) from main.obj
+      Discarded "public: class std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > > __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::end(void)const " (?end@?$vector@IV?$allocator@I@std@@@std@@QBE?AV?$_Vector_const_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@2@XZ) from main.obj
+      Discarded "public: void __thiscall std::_Vb_const_iterator<class std::allocator<bool> >::_Inc(void)" (?_Inc@?$_Vb_const_iterator@V?$allocator@_N@std@@@std@@QAEXXZ) from main.obj
+      Discarded "public: __thiscall std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > >::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > >(int *,struct std::_Container_base0 const *)" (??0?$_Vector_const_iterator@V?$_Vector_val@HV?$allocator@H@std@@@std@@@std@@QAE@PAHPBU_Container_base0@1@@Z) from main.obj
+      Discarded "void __cdecl std::_Fill_n<int *,unsigned int,int>(int *,unsigned int,int const &)" (??$_Fill_n@PAHIH@std@@YAXPAHIABH@Z) from main.obj
+      Discarded "protected: int * __thiscall std::vector<int,class std::allocator<int> >::_Ucopy<class std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > > >(class std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > >,class std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > >,int *)" (??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@HV?$allocator@H@std@@@std@@@std@@@?$vector@HV?$allocator@H@std@@@std@@IAEPAHV?$_Vector_const_iterator@V?$_Vector_val@HV?$allocator@H@std@@@std@@@1@0PAH@Z) from main.obj
+      Discarded "protected: unsigned int * __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::_Ucopy<class std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > > >(class std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >,class std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >,unsigned int *)" (??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@std@@@?$vector@IV?$allocator@I@std@@@std@@IAEPAIV?$_Vector_const_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@1@0PAI@Z) from main.obj
+      Discarded "int * __cdecl std::_Uninitialized_copy<class std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > >,int *,class std::allocator<int> >(class std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > >,class std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > >,int *,class std::allocator<int> &)" (??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@HV?$allocator@H@std@@@std@@@std@@PAHV?$allocator@H@2@@std@@YAPAHV?$_Vector_const_iterator@V?$_Vector_val@HV?$allocator@H@std@@@std@@@0@0PAHAAV?$allocator@H@0@@Z) from main.obj
+      Discarded "unsigned int * __cdecl std::_Uninitialized_copy<class std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >,unsigned int *,class std::allocator<unsigned int> >(class std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >,class std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >,unsigned int *,class std::allocator<unsigned int> &)" (??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@std@@PAIV?$allocator@I@2@@std@@YAPAIV?$_Vector_const_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@0@0PAIAAV?$allocator@I@0@@Z) from main.obj
+      Discarded "struct std::_Nonscalar_ptr_iterator_tag __cdecl std::_Ptr_cat<class std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > >,int *>(class std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > > &,int * &)" (??$_Ptr_cat@V?$_Vector_const_iterator@V?$_Vector_val@HV?$allocator@H@std@@@std@@@std@@PAH@std@@YA?AU_Nonscalar_ptr_iterator_tag@0@AAV?$_Vector_const_iterator@V?$_Vector_val@HV?$allocator@H@std@@@std@@@0@AAPAH@Z) from main.obj
+      Discarded "struct std::_Nonscalar_ptr_iterator_tag __cdecl std::_Ptr_cat<class std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >,unsigned int *>(class std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > > &,unsigned int * &)" (??$_Ptr_cat@V?$_Vector_const_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@std@@PAI@std@@YA?AU_Nonscalar_ptr_iterator_tag@0@AAV?$_Vector_const_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@0@AAPAI@Z) from main.obj
+      Discarded "public: int const & __thiscall std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > >::operator*(void)const " (??D?$_Vector_const_iterator@V?$_Vector_val@HV?$allocator@H@std@@@std@@@std@@QBEABHXZ) from main.obj
+      Discarded "public: class std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > > & __thiscall std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > >::operator++(void)" (??E?$_Vector_const_iterator@V?$_Vector_val@HV?$allocator@H@std@@@std@@@std@@QAEAAV01@XZ) from main.obj
+      Discarded "public: bool __thiscall std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > >::operator!=(class std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > > const &)const " (??9?$_Vector_const_iterator@V?$_Vector_val@HV?$allocator@H@std@@@std@@@std@@QBE_NABV01@@Z) from main.obj
+      Discarded "public: bool __thiscall std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > >::operator==(class std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > > const &)const " (??8?$_Vector_const_iterator@V?$_Vector_val@HV?$allocator@H@std@@@std@@@std@@QBE_NABV01@@Z) from main.obj
+      Discarded "public: void __thiscall std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > >::_Compat(class std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > > const &)const " (?_Compat@?$_Vector_const_iterator@V?$_Vector_val@HV?$allocator@H@std@@@std@@@std@@QBEXABV12@@Z) from main.obj
+      Discarded "void __cdecl std::_Cons_val<class std::allocator<int>,int,int const &>(class std::allocator<int> &,int *,int const &)" (??$_Cons_val@V?$allocator@H@std@@HABH@std@@YAXAAV?$allocator@H@0@PAHABH@Z) from main.obj
+      Discarded "void __cdecl std::_Dest_val<class std::allocator<int>,int>(class std::allocator<int> &,int *)" (??$_Dest_val@V?$allocator@H@std@@H@std@@YAXAAV?$allocator@H@0@PAH@Z) from main.obj
+      Discarded "void __cdecl std::_Cons_val<class std::allocator<unsigned int>,unsigned int,unsigned int const &>(class std::allocator<unsigned int> &,unsigned int *,unsigned int const &)" (??$_Cons_val@V?$allocator@I@std@@IABI@std@@YAXAAV?$allocator@I@0@PAIABI@Z) from main.obj
+      Discarded "void __cdecl std::_Dest_val<class std::allocator<unsigned int>,unsigned int>(class std::allocator<unsigned int> &,unsigned int *)" (??$_Dest_val@V?$allocator@I@std@@I@std@@YAXAAV?$allocator@I@0@PAI@Z) from main.obj
+      Discarded "public: void __thiscall std::allocator<unsigned int>::construct(unsigned int *,unsigned int const &)" (?construct@?$allocator@I@std@@QAEXPAIABI@Z) from main.obj
+      Discarded "public: void __thiscall std::allocator<unsigned int>::destroy(unsigned int *)" (?destroy@?$allocator@I@std@@QAEXPAI@Z) from main.obj
+      Discarded "public: void __thiscall std::allocator<int>::construct(int *,int const &)" (?construct@?$allocator@H@std@@QAEXPAHABH@Z) from main.obj
+      Discarded "public: void __thiscall std::allocator<int>::destroy(int *)" (?destroy@?$allocator@H@std@@QAEXPAH@Z) from main.obj
+      Discarded "int const & __cdecl std::forward<int const &>(int const &)" (??$forward@ABH@std@@YAABHABH@Z) from main.obj
+      Discarded "unsigned int const & __cdecl std::forward<unsigned int const &>(unsigned int const &)" (??$forward@ABI@std@@YAABIABI@Z) from main.obj
+      Discarded "void __cdecl std::_Construct<unsigned int,unsigned int const &>(unsigned int *,unsigned int const &)" (??$_Construct@IABI@std@@YAXPAIABI@Z) from main.obj
+      Discarded "void __cdecl std::_Destroy<unsigned int>(unsigned int *)" (??$_Destroy@I@std@@YAXPAI@Z) from main.obj
+      Discarded "void __cdecl std::_Construct<int,int const &>(int *,int const &)" (??$_Construct@HABH@std@@YAXPAHABH@Z) from main.obj
+      Discarded "void __cdecl std::_Destroy<int>(int *)" (??$_Destroy@H@std@@YAXPAH@Z) from main.obj
+      Discarded _SDL_SetVideoMode from SDL.lib(SDL.dll)
+      Discarded _SDL_FillRect from SDL.lib(SDL.dll)
+      Discarded _SDL_PollEvent from SDL.lib(SDL.dll)
+      Discarded _SDL_Flip from SDL.lib(SDL.dll)
+      Discarded "void __cdecl std::_Xlength_error(char const *)" (?_Xlength_error@std@@YAXPBD@Z) from msvcprt.lib(MSVCP100.dll)
+      Discarded "public: void __thiscall std::_Container_base0::_Swap_all(struct std::_Container_base0 &)" (?_Swap_all@_Container_base0@std@@QAEXAAU12@@Z) from msvcprt.lib(MSVCP100.dll)
+      Discarded "public: void __thiscall std::_Container_base0::_Orphan_all(void)" (?_Orphan_all@_Container_base0@std@@QAEXXZ) from msvcprt.lib(MSVCP100.dll)
+      Discarded "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ) from MSVCRT.lib(MSVCR100.dll)
+      Discarded "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z) from MSVCRT.lib(MSVCR100.dll)
+      Discarded _memmove from MSVCRT.lib(MSVCR100.dll)
+      Discarded _rand from MSVCRT.lib(MSVCR100.dll)
+      Discarded "private: __thiscall type_info::type_info(class type_info const &)" (??0type_info@@AAE@ABV0@@Z) from MSVCRT.lib(ti_inst.obj)
+      Discarded "private: class type_info & __thiscall type_info::operator=(class type_info const &)" (??4type_info@@AAEAAV0@ABV0@@Z) from MSVCRT.lib(ti_inst.obj)
+      Discarded "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z) from MSVCRT.lib(MSVCR100.dll)
+      Discarded _NtCurrentTeb from MSVCRT.lib(crtexew.obj)
+      Discarded _check_managed_app from MSVCRT.lib(crtexew.obj)
+      Discarded "int __cdecl ArrayUnwindFilter(struct _EXCEPTION_POINTERS *)" (?ArrayUnwindFilter@@YAHPAU_EXCEPTION_POINTERS@@@Z) from MSVCRT.lib(ehvecdtr.obj)
+      Discarded ___getmainargs from MSVCRT.lib(MSVCR100.dll)
+      Discarded __cexit from MSVCRT.lib(MSVCR100.dll)
+      Discarded __exit from MSVCRT.lib(MSVCR100.dll)
+      Discarded __ismbblead from MSVCRT.lib(MSVCR100.dll)
+      Discarded _exit from MSVCRT.lib(MSVCR100.dll)
+      Discarded __configthreadlocale from MSVCRT.lib(MSVCR100.dll)
+      Discarded __invoke_watson_if_error from MSVCRT.lib(fp8.obj)
+      Discarded ___setusermatherr from MSVCRT.lib(MSVCR100.dll)
+      Discarded ___set_app_type from MSVCRT.lib(MSVCR100.dll)
+      Discarded _EncodePointer@4 from kernel32.lib(KERNEL32.dll)
+      Discarded _DecodePointer@4 from kernel32.lib(KERNEL32.dll)
+      Discarded _InterlockedExchange@8 from kernel32.lib(KERNEL32.dll)
+      Discarded _Sleep@4 from kernel32.lib(KERNEL32.dll)
+      Discarded _InterlockedCompareExchange@12 from kernel32.lib(KERNEL32.dll)
+      Discarded _HeapSetInformation@16 from kernel32.lib(KERNEL32.dll)
+      Discarded _GetStartupInfoW@4 from kernel32.lib(KERNEL32.dll)
+      Discarded _TerminateProcess@8 from kernel32.lib(KERNEL32.dll)
+      Discarded _GetCurrentProcess@0 from kernel32.lib(KERNEL32.dll)
+      Discarded _UnhandledExceptionFilter@4 from kernel32.lib(KERNEL32.dll)
+      Discarded _SetUnhandledExceptionFilter@4 from kernel32.lib(KERNEL32.dll)
+      Discarded _IsDebuggerPresent@0 from kernel32.lib(KERNEL32.dll)
+      Discarded _QueryPerformanceCounter@4 from kernel32.lib(KERNEL32.dll)
+      Discarded _GetTickCount@0 from kernel32.lib(KERNEL32.dll)
+      Discarded _GetCurrentThreadId@0 from kernel32.lib(KERNEL32.dll)
+      Discarded _GetCurrentProcessId@0 from kernel32.lib(KERNEL32.dll)
+      Discarded _GetSystemTimeAsFileTime@4 from kernel32.lib(KERNEL32.dll)
+      Discarded _GetModuleFileNameA@12 from kernel32.lib(KERNEL32.dll)
+      Discarded _GetModuleHandleA@4 from kernel32.lib(KERNEL32.dll)
+      Discarded _GetCommandLineA@0 from kernel32.lib(KERNEL32.dll)
+      Discarded _FreeLibrary@4 from kernel32.lib(KERNEL32.dll)
+      Discarded _LoadLibraryA@4 from kernel32.lib(KERNEL32.dll)
+      Discarded _isspace from MSVCRT.lib(MSVCR100.dll)
+      Discarded _fprintf from MSVCRT.lib(MSVCR100.dll)
+      Discarded ___iob_func from MSVCRT.lib(MSVCR100.dll)
+      Discarded _remove from MSVCRT.lib(MSVCR100.dll)
+      Discarded _fopen from MSVCRT.lib(MSVCR100.dll)
+      Discarded _fgetc from MSVCRT.lib(MSVCR100.dll)
+      Discarded _fclose from MSVCRT.lib(MSVCR100.dll)
+      Discarded _setbuf from MSVCRT.lib(MSVCR100.dll)
+      Discarded _setvbuf from MSVCRT.lib(MSVCR100.dll)
+      Discarded _freopen from MSVCRT.lib(MSVCR100.dll)
+      Discarded _strrchr from MSVCRT.lib(MSVCR100.dll)
+      Discarded _atoi from MSVCRT.lib(MSVCR100.dll)
+      Discarded '.text$x' from main.obj
+      Discarded '.text$x' from main.obj
+      Discarded '.text$x' from main.obj
+      Discarded '.text$x' from main.obj
+      Discarded '.text$x' from main.obj
+      Discarded '.text$x' from main.obj
+      Discarded '.text$x' from main.obj
+      Discarded '.text$x' from main.obj
+      Discarded '.text$x' from main.obj
+      Discarded '.text$x' from main.obj
+      Discarded '.text$x' from main.obj
+      Discarded '.text$x' from main.obj
+      Discarded '.text$x' from main.obj
+      Discarded '.text$x' from main.obj
+      Discarded '.text$x' from main.obj
+  
+      Selected symbol:
+          __matherr from MSVCRT.lib(merr.obj)
+      Replaced symbol(s):
+          __setargv from MSVCRT.lib(dllargv.obj)
+  
+      Selected symbol:
+          "int * __cdecl std::_Uninit_copy<class std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > >,int *,class std::allocator<int> >(class std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > >,class std::_Vector_const_iterator<class std::_Vector_val<int,class std::allocator<int> > >,int *,class std::allocator<int> &,struct std::_Nonscalar_ptr_iterator_tag)" (??$_Uninit_copy@V?$_Vector_const_iterator@V?$_Vector_val@HV?$allocator@H@std@@@std@@@std@@PAHV?$allocator@H@2@@std@@YAPAHV?$_Vector_const_iterator@V?$_Vector_val@HV?$allocator@H@std@@@std@@@0@0PAHAAV?$allocator@H@0@U_Nonscalar_ptr_iterator_tag@0@@Z) from main.obj
+      Replaced symbol(s):
+          "unsigned int * __cdecl std::_Uninit_copy<class std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >,unsigned int *,class std::allocator<unsigned int> >(class std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >,class std::_Vector_const_iterator<class std::_Vector_val<unsigned int,class std::allocator<unsigned int> > >,unsigned int *,class std::allocator<unsigned int> &,struct std::_Nonscalar_ptr_iterator_tag)" (??$_Uninit_copy@V?$_Vector_const_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@std@@PAIV?$allocator@I@2@@std@@YAPAIV?$_Vector_const_iterator@V?$_Vector_val@IV?$allocator@I@std@@@std@@@0@0PAIAAV?$allocator@I@0@U_Nonscalar_ptr_iterator_tag@0@@Z) from main.obj
+  
+      Selected symbol:
+          "void __cdecl std::_Dest_val<class std::allocator<class std::vector<int,class std::allocator<int> > >,class std::vector<int,class std::allocator<int> > >(class std::allocator<class std::vector<int,class std::allocator<int> > > &,class std::vector<int,class std::allocator<int> > *)" (??$_Dest_val@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@std@@V?$vector@HV?$allocator@H@std@@@2@@std@@YAXAAV?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@0@PAV?$vector@HV?$allocator@H@std@@@0@@Z) from main.obj
+      Replaced symbol(s):
+          "public: __thiscall std::_Vb_val<class std::allocator<bool> >::~_Vb_val<class std::allocator<bool> >(void)" (??1?$_Vb_val@V?$allocator@_N@std@@@std@@QAE@XZ) from main.obj
+          "public: __thiscall std::vector<int,class std::allocator<int> >::~vector<int,class std::allocator<int> >(void)" (??1?$vector@HV?$allocator@H@std@@@std@@QAE@XZ) from main.obj
+          "protected: void __thiscall std::vector<int,class std::allocator<int> >::_Tidy(void)" (?_Tidy@?$vector@HV?$allocator@H@std@@@std@@IAEXXZ) from main.obj
+          "protected: void __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::_Tidy(void)" (?_Tidy@?$vector@IV?$allocator@I@std@@@std@@IAEXXZ) from main.obj
+  
+      Selected symbol:
+          "void __cdecl std::_Dest_val<class std::allocator<class std::vector<bool,class std::allocator<bool> > >,class std::vector<bool,class std::allocator<bool> > >(class std::allocator<class std::vector<bool,class std::allocator<bool> > > &,class std::vector<bool,class std::allocator<bool> > *)" (??$_Dest_val@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@std@@V?$vector@_NV?$allocator@_N@std@@@2@@std@@YAXAAV?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@0@PAV?$vector@_NV?$allocator@_N@std@@@0@@Z) from main.obj
+      Replaced symbol(s):
+          "public: __thiscall std::vector<bool,class std::allocator<bool> >::~vector<bool,class std::allocator<bool> >(void)" (??1?$vector@_NV?$allocator@_N@std@@@std@@QAE@XZ) from main.obj
+  
+      Selected symbol:
+          "public: void __thiscall std::vector<int,class std::allocator<int> >::_Construct_n(unsigned int,int const *)" (?_Construct_n@?$vector@HV?$allocator@H@std@@@std@@QAEXIPBH@Z) from main.obj
+      Replaced symbol(s):
+          "public: void __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::_Construct_n(unsigned int,unsigned int const *)" (?_Construct_n@?$vector@IV?$allocator@I@std@@@std@@QAEXIPBI@Z) from main.obj
+  
+      Selected symbol:
+          "public: int * __thiscall std::allocator<int>::allocate(unsigned int)" (?allocate@?$allocator@H@std@@QAEPAHI@Z) from main.obj
+      Replaced symbol(s):
+          "public: unsigned int * __thiscall std::allocator<unsigned int>::allocate(unsigned int)" (?allocate@?$allocator@I@std@@QAEPAII@Z) from main.obj
+  
+      Selected symbol:
+          "public: __thiscall std::vector<int,class std::allocator<int> >::vector<int,class std::allocator<int> >(class std::vector<int,class std::allocator<int> > const &)" (??0?$vector@HV?$allocator@H@std@@@std@@QAE@ABV01@@Z) from main.obj
+      Replaced symbol(s):
+          "public: __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::vector<unsigned int,class std::allocator<unsigned int> >(class std::vector<unsigned int,class std::allocator<unsigned int> > const &)" (??0?$vector@IV?$allocator@I@std@@@std@@QAE@ABV01@@Z) from main.obj
+  
+      Selected symbol:
+          '.text$x' from main.obj
+      Replaced symbol(s):
+          '.text$x' from main.obj
+  
+      Selected symbol:
+          '.text$x' from main.obj
+      Replaced symbol(s):
+          '.text$x' from main.obj
+  
+      Selected symbol:
+          '.xdata$x' from main.obj
+      Replaced symbol(s):
+          '.xdata$x' from main.obj
+  
+      Selected symbol:
+          '.xdata$x' from main.obj
+      Replaced symbol(s):
+          '.xdata$x' from main.obj
+  
+      ICF total savings: 801 bytes
+  
+  Starting pass 2
+        CIL library( CIL module)
+       SDL.lib(SDL.dll)
+       SDL.lib(SDL.dll)
+       SDL.lib(SDL.dll)
+       SDL.lib(SDL.dll)
+       SDL.lib(SDL.dll)
+       SDL.lib(SDL.dll)
+       SDL.lib(SDL.dll)
+       SDL.lib(SDL.dll)
+       SDL.lib(SDL.dll)
+       SDL.lib(SDL.dll)
+       SDL.lib(SDL.dll)
+       SDL.lib(SDL.dll)
+       SDL.lib(SDL.dll)
+       SDL.lib(SDL.dll)
+       SDLmain.lib(SDL_win32_main.obj)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       msvcprt.lib(MSVCP100.dll)
+       msvcprt.lib(MSVCP100.dll)
+       msvcprt.lib(MSVCP100.dll)
+       msvcprt.lib(MSVCP100.dll)
+       msvcprt.lib(MSVCP100.dll)
+       MSVCRT.lib(ehvecdtr.obj)
+       MSVCRT.lib(unhandld.obj)
+       MSVCRT.lib(atonexit.obj)
+       MSVCRT.lib(cinitexe.obj)
+       MSVCRT.lib(crtexew.obj)
+       MSVCRT.lib(dllargv.obj)
+       MSVCRT.lib(gs_cookie.obj)
+       MSVCRT.lib(gs_report.obj)
+       MSVCRT.lib(gs_support.obj)
+       MSVCRT.lib(merr.obj)
+       MSVCRT.lib(natstart.obj)
+       MSVCRT.lib(pesect.obj)
+       MSVCRT.lib(ti_inst.obj)
+       MSVCRT.lib(wildcard.obj)
+       MSVCRT.lib(chandler4gs.obj)
+       MSVCRT.lib(fp8.obj)
+       MSVCRT.lib(loadcfg.obj)
+       MSVCRT.lib(secchk.obj)
+       MSVCRT.lib(sehprolg4.obj)
+       MSVCRT.lib(_newmode.obj)
+       MSVCRT.lib(xncommod.obj)
+       MSVCRT.lib(xtxtmode.obj)
+       MSVCRT.lib(xthdloc.obj)
+       MSVCRT.lib(alloca16.obj)
+       MSVCRT.lib(chkstk.obj)
+       MSVCRT.lib(typeinfo_dtor_32.obj)
+       MSVCRT.lib(_initsect_.obj)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+       MSVCRT.lib(MSVCR100.dll)
+  Finished pass 2
+  ConwaysGameOfLife.vcxproj -> C:\Users\Owner\Desktop\C++ SDL\ConwaysGameOfLife\ConwaysGameOfLife\Release\ConwaysGameOfLife.exe
